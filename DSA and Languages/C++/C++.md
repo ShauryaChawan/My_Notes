@@ -8,15 +8,16 @@
     <li><a href="./C++ Notes/1. Introduction to C++.md" target="_self">Introduction to C++</a></li>
     <li><a href="./C++ Notes/2. DataTypes, Variables & Identifiers - C++.md" target="_self">DataTypes, Variables & Identifiers</a></li>
     <li><a href="./C++ Notes/3. Inputs & Outputs - C++.md" target="_self">Inputs & Outputs</a></li>
-    <li><a href="C++ Notes/4. Operators - C++.md" target="_self">Operators</a</li>
-    <li><a href="C++ Notes/5. Conditional Statements - C++.md" target="_self">Conditional Statements</a</li>
-    <li><a href="C++ Notes/6. Loops - C++.md" target="_self">Loops</a</li>
-    <li><a href="C++ Notes/7. Break & Continue - C++.md" target="_self">Break & Continue</a</li>
-    <li><a href="C++ Notes/8. Array - C++.md" target="_self">Array</a</li>
-    <li><a href=" " target="_self">String</a</li>
-    <li><a href="" target="_self">Structures</a</li>
-    <li><a href="" target="_self">Enumeration<</a/li>
-    <li><a href="" target="_self">References and Pointers</a</li>
+    <li><a href="C++ Notes/4. Operators - C++.md" target="_self">Operators</a></li>
+    <li><a href="C++ Notes/5. Conditional Statements - C++.md" target="_self">Conditional Statements</a></li>
+    <li><a href="C++ Notes/6. Loops - C++.md" target="_self">Loops</a></li>
+    <li><a href="C++ Notes/7. Break & Continue - C++.md" target="_self">Break & Continue</a></li>
+    <li><a href="C++ Notes/8. Array - C++.md" target="_self">Array</a></li>
+    <li><a href=" " target="_self">String</a></li>
+    <li><a href="" target="_self">Structures</a></li>
+    <li><a href="" target="_self">Union</a></li>
+    <li><a href="" target="_self">Enumeration</a></li>
+    <li><a href="" target="_self">References and Pointers</a></li>
     <li><a href="" target="_self">Functions</a></li>
     <li>OPPS</li>
     <li>Classes & Objects</li>

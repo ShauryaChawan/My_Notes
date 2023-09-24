@@ -1,43 +1,52 @@
 #include <iostream>
 using namespace std;
 
-// creating union
-union Sample {
-  char a; 
-  float b;
-  int c;
-};
+int main()
+{
+  int numRows, numCols;
 
-int main() {
-  // initialising a union
-  union Sample u_name;
+  // Get the number of rows and columns from the user
+  cout << "Enter the number of rows: ";
+  cin >> numRows;
+  cout << "Enter the number of columns: ";
+  cin >> numCols;
 
-  // assigning value to a
-  u_name.a = 'c'; 
+  // Allocate memory for the dynamic multidimensional array
+  int **dynamicArray = new int *[numRows]; // Create an array of int* (pointers to int)
 
-  // printing all values
-  cout << "a " << u_name.a << endl;
-  cout << "b " << u_name.b << endl;
-  cout << "c " << u_name.c << endl;
-  cout << endl << endl;
+  for (int i = 0; i < numRows; ++i)
+  {
+    dynamicArray[i] = new int[numCols]; // Each int* points to an array of int (a row)
+  }
 
-  // assigning value to b
-  u_name.b = 87.99;
+  // Initialize the elements of the array
+  int value = 1;
+  for (int i = 0; i < numRows; ++i)
+  {
+    for (int j = 0; j < numCols; ++j)
+    {
+      dynamicArray[i][j] = value;
+      value++;
+    }
+  }
 
-  // printing all values
-  cout << "a " << u_name.a << endl;
-  cout << "b " << u_name.b << endl;
-  cout << "c " << u_name.c << endl;
-  cout << endl << endl;
+  // Access and print the elements of the array
+  cout << "Dynamic Array Contents:" << endl;
+  for (int i = 0; i < numRows; ++i)
+  {
+    for (int j = 0; j < numCols; ++j)
+    {
+      cout << dynamicArray[i][j] << " ";
+    }
+    cout << endl;
+  }
 
-  // assigning value to c
-  u_name.c = 103;
-
-  // printing all values
-  cout << "a " << u_name.a << endl;
-  cout << "b " << u_name.b << endl;
-  cout << "c " << u_name.c << endl;
-  cout << endl << endl;
+  // Deallocate memory to prevent memory leaks
+  for (int i = 0; i < numRows; ++i)
+  {
+    delete[] dynamicArray[i]; // Delete each row
+  }
+  delete[] dynamicArray; // Delete the array of pointers
 
   return 0;
 }

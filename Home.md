@@ -8,7 +8,8 @@
   <tr>
     <td>
       <details>
-        <summary><a href="/Development/AI_ML_DS.md">AI ML DS</a></summary>
+        <summary>
+        <a href="/Development/AI_ML_DS.md">AI ML DS</a></summary>
         <a href="/Development/AI_ML_DS.md">AI ML DS</a>
       </details>
     </td>

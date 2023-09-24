@@ -13,12 +13,12 @@
     <li><a href="C++ Notes/6. Loops - C++.md" target="_self">Loops</a></li>
     <li><a href="C++ Notes/7. Break & Continue - C++.md" target="_self">Break & Continue</a></li>
     <li><a href="C++ Notes/8. Array - C++.md" target="_self">Array</a></li>
-    <li><a href=" " target="_self">String</a></li>
-    <li><a href="" target="_self">Structures</a></li>
-    <li><a href="" target="_self">Union</a></li>
-    <li><a href="" target="_self">Enumeration</a></li>
-    <li><a href="" target="_self">References and Pointers</a></li>
-    <li><a href="" target="_self">Functions</a></li>
+    <li><a href="C++ Notes/9. String - C++.md" target="_self">String</a></li>
+    <li><a href="C++ Notes/10. Structure - C++.md" target="_self">Structures</a></li>
+    <li><a href="C++ Notes/11. Union - C++.md" target="_self">Union</a></li>
+    <li><a href="C++ Notes/12. Enumeration - C++.md" target="_self">Enumeration</a></li>
+    <li><a href="C++ Notes/13. References & Pointers - C++.md" target="_self">References and Pointers</a></li>
+    <li><a href="C++ Notes/14. Functions - C++.md" target="_self">Functions</a></li>
     <li>OPPS</li>
     <li>Classes & Objects</li>
     <li>Class Methods</li>
@@ -27,6 +27,9 @@
     <li>Encapsulations</li>
     <li>Inheritance</li>
     <li>Polymorphism</li>
+    <li>The 'static' Keyword</li>
+    <li>The 'typedef' Keyword</li>
+    <li>The 'volatile' Keyword</li>
     <li>File Handling</li>
     <li>Exception Handling</li>
   </ol>

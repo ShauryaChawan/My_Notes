@@ -5,6 +5,7 @@
   <ul>
     <li>Array</li>
     <li>Matrix / Grid</li>
+    <li>Vector</li>
     <li>Linked List</li>
     <li>Circular Linked List</li>
     <li>Doubly Linked List</li>

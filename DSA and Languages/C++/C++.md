@@ -37,7 +37,7 @@
   <ul>
     <li>Sequence Containers</li>
     <ul>
-      <li>Array</li>
+      <li><Array/li>
       <li>Vector</li>
       <li>Deque</li>
       <li>Forward_List</li>

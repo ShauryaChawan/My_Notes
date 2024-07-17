@@ -4,6 +4,10 @@
 <h2> Table of Content</h2>
 
 - [What is Operating System \& Types of OS](#what-is-operating-system--types-of-os)
+- [Program vs Process vs Thread](#program-vs-process-vs-thread)
+	- [Program](#program)
+	- [Process](#process)
+	- [Thread](#thread)
 
 
 ## What is Operating System & Types of OS
@@ -76,4 +80,87 @@
     <li>Widely used in embedded systems, control systems, and IoT devices.</li>
   </ul>
 </ol>
+<hr />
+
+## Program vs Process vs Thread
+
+### Program
+<ul>
+  <li>
+    A program is a set of instructions written in a programming language that
+    performs a specific task or set of tasks.
+  </li>
+  <li>
+    It is typically stored in a file on disk and represents an executable
+    entity.
+  </li>
+  <li>
+    Programs can be compiled or interpreted, and they serve as a blueprint for
+    the execution of tasks on a computer system.
+  </li>
+</ul>
+
+### Process
+
+<ul>
+  <li>
+    A process is an instance of a program in execution. When a program is loaded
+    into memory and executed, it becomes a process.
+  </li>
+  <li>
+    A process is an independent entity with its own PCB unit ie. memory space,
+    resources, and execution context.
+  </li>
+  <li>
+    PCB:
+    <ul>
+      <li>
+        A Process Control Block (PCB) is a data structure used by the operating
+        system to manage information about a process.
+      </li>
+      <li>Process ID: A unique identifier for each process</li>
+      <li>Priority: The process’s scheduling priority</li>
+      <li>
+        State: The current state of the process (e.g., running, sleeping,
+        waiting)
+      </li>
+      <li>CPU Registers: The current values of CPU registers</li>
+      <li>Memory Pointers: Pointers to the process’s memory segments</li>
+      <li>
+        Open Files: A list of open files and their corresponding file
+        descriptors
+      </li>
+      <li>I/O Status: The current I/O status of the process</li>
+    </ul>
+  </li>
+  <li>
+    Processes are managed by the operating system, and each process runs in its
+    own protected memory space.
+  </li>
+  <li>
+    Processes can be concurrent and communicate with each other through
+    inter-process communication (IPC) mechanisms.
+  </li>
+</ul>
+
+### Thread
+
+<ul>
+  <li>A thread is a unit of execution within a process.</li>
+  <li>
+    It represents a sequence of instructions that can be scheduled and executed
+    independently.
+  </li>
+  <li>Threads share the same memory space and resources within a process.</li>
+  <li>
+    Multiple threads within a process can run concurrently, allowing for
+    parallel execution of tasks.
+  </li>
+  <li>
+    Threads within the same process can communicate and share data more easily
+    compared to inter-process communication (IPC).
+  </li>
+  <li>However, each thread has its own program counter and stack.</li>
+</ul>
+
 <hr />

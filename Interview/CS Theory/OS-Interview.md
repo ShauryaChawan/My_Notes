@@ -8,6 +8,13 @@
 	- [Program](#program)
 	- [Process](#process)
 	- [Thread](#thread)
+- [Multiprogramming vs Multiprocessing vs Multitasking vs Multithreading](#multiprogramming-vs-multiprocessing-vs-multitasking-vs-multithreading)
+	- [Multiprogramming](#multiprogramming)
+	- [Multiprocessing](#multiprocessing)
+	- [Multitasking](#multitasking)
+	- [Multithreading](#multithreading)
+	- [Summary](#summary)
+- [](#)
 
 
 ## What is Operating System & Types of OS
@@ -164,3 +171,128 @@
 </ul>
 
 <hr />
+
+## Multiprogramming vs Multiprocessing vs Multitasking vs Multithreading
+
+### Multiprogramming
+<ul>
+  <li>
+    Multiprogramming is a technique where multiple programs are loaded into
+    memory and executed concurrently by a single CPU.
+  </li>
+  <li>
+    The CPU switches between programs, giving the illusion of simultaneous
+    execution.
+  </li>
+  <li>Allows full utilization of CPU.</li>
+  <li>
+    Example: Consider a scenario where you have three programs: a text editor, a
+    web browser, and a media player. In a multiprogramming environment, the CPU
+    switches between these programs so that when one program is waiting for an
+    I/O operation (like reading from a disk), the CPU can execute another
+    program. This way, the CPU is kept busy almost all the time.
+  </li>
+</ul>
+
+### Multiprocessing
+<ul>
+  <li>
+    Multiprocessing involves using multiple CPUs or CPU cores to execute
+    multiple processes simultaneously.
+  </li>
+  <li>Each processor works on a different task or part of a task.</li>
+  <li>
+    Example: A modern computer with a quad-core processor running four different
+    applications, each on its own core.
+  </li>
+</ul>
+
+### Multitasking
+<ul>
+  <li>
+    Multitasking is the ability of an operating system to execute multiple tasks
+    (processes) concurrently by rapidly switching between them.
+  </li>
+  <li>
+    This creates the impression that multiple tasks are running simultaneously.
+  </li>
+  <li>
+    Example: Using a smartphone to listen to music while browsing the web and
+    receiving text messages.
+  </li>
+</ul>
+
+### Multithreading
+<ul>
+  <li>
+    Multithreading is a programming concept where a single process is divided
+    into multiple threads that can execute concurrently.
+  </li>
+  <li>Threads share the same memory space but can run independently.</li>
+</ul>
+
+### Summary 
+<ul>
+  <li>
+    Multiprogramming vs Multiprocessing:
+    <ul>
+      <li>Multiprogramming uses a single CPU to run multiple programs.</li>
+      <li>
+        Multiprocessing uses multiple CPUs or cores to run multiple programs
+        simultaneously.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Multiprogramming vs Multitasking:
+    <ul>
+      <li>
+        Multiprogramming focuses on running multiple programs concurrently.
+      </li>
+      <li>
+        Multitasking is a broader concept that includes both process-level and
+        thread-level concurrency.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Multiprocessing vs Multithreading:
+    <ul>
+      <li>Multiprocessing involves multiple CPUs working on separate tasks.</li>
+      <li>
+        Multithreading involves multiple threads within a single process sharing
+        the same memory space.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Multiprocessing vs Multitasking:
+    <ul>
+      <li>
+        Multiprocessing uses multiple CPUs to execute tasks simultaneously.
+      </li>
+      <li>
+        Multitasking rapidly switches between tasks to create the illusion of
+        simultaneous execution, potentially on a single CPU.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Multitasking vs Multithreading:
+    <ul>
+      <li>
+        Multitasking deals with multiple processes with separate memory spaces.
+      </li>
+      <li>
+        Multithreading deals with multiple threads within a single process
+        sharing the same memory space.
+      </li>
+    </ul>
+  </li>
+</ul>
+
+![img](./images/OS-1.png)
+
+<hr/>
+
+## 

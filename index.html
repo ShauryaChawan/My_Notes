@@ -38,6 +38,12 @@
 	</ul>
 	<li>Artificial Intelligence</li>
 	<li>Computer Science Thoery</li>
+	<ol>
+		<li><a href="/Interview/CS Theory/CN-Interview.md">Computer Networks (CN)</a></li>
+		<li><a href="/Interview/CS Theory/DBMS-Interview.md">Database Management System (DBMS)</a></li>
+		<li><a href="/Interview/CS Theory/OOPs-Interview.md">Object Oriented Programming (OOPs)</a></li>
+		<li><a href="/Interview/CS Theory/OS-Interview.md">Operating System (OS)</a></li>
+	</ol>
 	<li>DSA & Languages</li>
 	<ol>
 		<li><a href="/Interview/DSA and Languages/C++-Interview.md">C++ Interview Questions</a></li>

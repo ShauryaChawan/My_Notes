@@ -1,73 +1,57 @@
 <h1 style="text-align: center">Notes By Shaurya</h1>
 
-<table style="width: 100%">
-  <tr>
-    <th style="text-align: center">Development</th>
-    <th style="text-align: center">DSA & Languages</th>
-  </tr>
-  <tr>
-    <td>
-      <details>
-        <summary>
-        <a href="/Development/AI_ML_DS.md">AI ML DS</a></summary>
-        <a href="/Development/AI_ML_DS.md">AI ML DS</a>
-      </details>
-    </td>
-    <td>
-      <a href="/DSA and Languages/C++/C++.md">C++</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <details>
-        <summary>Mobile App</a></summary>
-        <ul style="text-align: left">
-          <li>
-            <a href="/Development/Mobile App/Android - Java/Android_Java.md">Android - Java</a>
-          </li>
-          <li>
-            <a href="/Development/Mobile App/Android - Kotlin/Android_Kotlin.md">Android - Kotlin</a>
-          </li>
-          <li>
-            <a href="/Development/Mobile App/Flutter/Flutter.md">Flutter</a>
-          </li>
-        </ul>
-      </details>
-    </td>
-    <td>
-      <a href="/DSA and Languages/Java/Java.md">Java</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <details>
-        <summary>Web Technologies</summary>
-        <ul>
-          <li>
-            <a href="/Development/Web/AngularJs/AngularJs.md">AngularJs</a>
-          </li>
-          <li>
-            <a href="/Development/Web/HTML/HTML.md">HTML</a>
-          </li>
-          <li>
-            <a href="/Development/Web/Java/JavaWeb.md">Java Web</a>
-          </li>
-          <li>
-            <a href="/Development/Web/NextJs/NextJs.md">NextJs</a>
-          </li>
-          <li>
-            <a href="/Development/Web/NodeJs/NodeJs.md">NodeJs</a>
-          </li>
-          <li>
-            <a href="/Development/Web/ReactJs/ReactJs.md">ReactJs</a>
-          </li>
-        </ul>
-      </details>
-    </td>
-    <td><a href="/DSA and Languages/Python/Python.md">Python</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td><a href="/DSA and Languages/DSA/DSA.md">DSA</a></td>
-  </tr>
-</table>
+<h2>Artificial Intelligence</h2>
+<hr />
+
+<h2>Software Development</h2>
+<hr />
+
+<h2>Computer Science Thoery</h2>
+<hr />
+
+<h2>DSA & Languages</h2>
+<hr />
+
+<h2>Interview</h2>
+<ul>
+	<li>Software Development</li>
+	<ul>
+		<li>Web Frontend Development</li>
+		<ol>
+			<li><a href="/Interview/Software Development/HTML-Interview.md">HTML Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/CSS-Interview.md">CSS Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/JavaScript-Interview.md">Javascript Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/React.js-Interview.md">React.js Interview Questions</a></li>
+		</ol>
+		<li>Mobile App Development</li>
+		<ol>
+			<li><a href="/Interview/Software Development/ReactNative-Interview.md">React Native Interview Questions</a></li>
+		</ol>
+		<li>Backend Development</li>
+		<ol>
+			<li><a href="/Interview/Software Development/Node.js-Interview.md">Node.js Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/Express.js-Interview.md">Express.js Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/MongoDB-Interview.md">MongoDB Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/PostgreSQL-Interview.md">PostgreSQL Interview Questions</a></li>
+			<li><a href="/Interview/Software Development/SQL-Interview.md">SQL Interview Questions</a></li>
+		</ol>
+	</ul>
+	<li>Artificial Intelligence</li>
+	<li>Computer Science Thoery</li>
+	<li>DSA & Languages</li>
+	<ol>
+		<li><a href="/Interview/DSA and Languages/C++-Interview.md">C++ Interview Questions</a></li>
+		<li><a href="/Interview/DSA and Languages/Java-Interview.md">Java Interview Questions</a></li>
+		<li><a href="/Interview/DSA and Languages/Python-Interview.md">Python Interview Questions</a></li>
+	</ol>
+	<li>Projects</li>
+	<ol>
+		<li><a href="https://github.com/ShauryaChawan/Recipe-Finder">Recipe Finder</a></li>
+		<li><a href="https://github.com/ShauryaChawan/Home-Town">Home Town</a></li>
+		<li><a href="https://github.com/ShauryaChawan/Chat-Application">Chat Application</a></li>
+		<li><a href="https://github.com/ShauryaChawan/Fiverr-Clone">Fiverr.com Clone</a></li>
+		<li><a href="https://lucky-treacle-28f419.netlify.app/">Nexus Traders</a></li>
+		<li>Booking.com</li>
+	</ol>
+</ul>
+<hr />

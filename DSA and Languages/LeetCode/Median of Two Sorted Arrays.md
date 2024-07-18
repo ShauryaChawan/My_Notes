@@ -1,8 +1,8 @@
-import java.util.*;
+# Median of Two Sorted Arrays
 
-public class Main {
-	public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-		int numArrSize = nums1.length + nums2.length;
+```
+public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int numArrSize = nums1.length + nums2.length;
 		int[] numArr = new int[numArrSize];
 		double median;
 
@@ -26,13 +26,5 @@ public class Main {
 			median = (result == 0.0) ? 0 : result - 1;
 		}
 		return median;
-	}
-
-	public static void main(String[] args) {
-		int[] nums1 = { 0,0 };
-		int[] nums2 = { 0,0 };
-
-		double result = findMedianSortedArrays(nums1, nums2);
-		System.out.println(result);
-	}
-}
+    }
+```

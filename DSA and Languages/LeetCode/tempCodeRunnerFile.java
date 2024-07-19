@@ -1,1 +1,0 @@
-umArrSize / 2) + 1

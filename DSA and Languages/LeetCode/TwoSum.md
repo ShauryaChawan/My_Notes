@@ -2,7 +2,7 @@
 
 Problem Link: [Link](https://leetcode.com/problems/two-sum/description/)
 
-My Code:
+## My Code:
 ```
 class Solution {
     // public int[] twoSum(int[] nums, int target) {
@@ -32,7 +32,7 @@ class Solution {
 }
 ```
 
-Most Optimised Code:
+## Most Optimised Code:
 ```
 class Solution {
 

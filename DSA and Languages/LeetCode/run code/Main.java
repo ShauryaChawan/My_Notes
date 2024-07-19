@@ -30,7 +30,7 @@ public class Main {
 					}
 				}
 
-				// If it's both minimum in its row and maximum in its column, 
+				// If it's both minimum in its row and maximum in its column,
 				// it's a lucky number
 				if (isMin && isMax) {
 					result.add(matrix[i][j]);

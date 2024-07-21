@@ -4,42 +4,18 @@
 <ol>
   <li style="margin-bottom: 15px">
     <a href="/DSA and Languages/LeetCode/TwoSum.md">Two Sum</a>
-    <span
-      style="
-        padding: 5px;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: rgb(4, 255, 4);
-      "
-      >Easy</span
-    >
+    [Easy]
   </li>
   <li style="margin-bottom: 15px">
     <a href="/DSA and Languages/LeetCode/Lucky Numbers in a Matrix.md"
       >Lucky Number in Matrix</a
     >
-    <span
-      style="
-        padding: 5px;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: rgb(4, 255, 4);
-      "
-      >Easy</span
-    >
+    [Easy]
   </li>
   <li style="margin-bottom: 15px">
     <a href="/DSA and Languages/LeetCode/Median of Two Sorted Arrays.md"
       >Median of Two Sorted Arrays</a>
-		<span
-      style="
-        padding: 5px;
-        border: 1px solid black;
-        border-radius: 5px;
-        background-color: red;
-      "
-      >Hard</span
-    >
+		[Hard]
   </li>
 </ol>
 <hr />

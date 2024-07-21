@@ -1,5 +1,8 @@
 <h1 style="text-align: center">Notes By Shaurya</h1>
 
+<h2>Leet Code</h2>
+<hr />
+
 <h2>Artificial Intelligence</h2>
 <hr />
 

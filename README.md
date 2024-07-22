@@ -15,7 +15,12 @@
   <li style="margin-bottom: 15px">
     <a href="/DSA and Languages/LeetCode/Median of Two Sorted Arrays.md"
       >Median of Two Sorted Arrays</a>
-		[Hard]
+		[Hard] [Incomplete]
+  </li>
+  <li style="margin-bottom: 15px">
+    <a href="/DSA and Languages/LeetCode/Sort the People.md"
+      >Sort the People</a>
+		[Easy]
   </li>
 </ol>
 <hr />

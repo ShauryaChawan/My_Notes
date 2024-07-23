@@ -1,5 +1,7 @@
 <h1 style="text-align: center">Notes By Shaurya</h1>
 
+today was holiday
+
 <h2>Leet Code</h2>
 <ol>
   <li style="margin-bottom: 15px">

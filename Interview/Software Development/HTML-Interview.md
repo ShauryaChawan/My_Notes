@@ -15,6 +15,44 @@
 	- [The `base` tag](#the-base-tag)
 	- [The `script` tag](#the-script-tag)
 	- [The `title` tag](#the-title-tag)
+- [HTML Headings](#html-headings)
+- [HTML Paragraphs](#html-paragraphs)
+- [HTML Text Formatting](#html-text-formatting)
+- [HTML Quotation and Citation Elements](#html-quotation-and-citation-elements)
+- [HTML Comments](#html-comments)
+- [HTML Colours](#html-colours)
+- [HTML Style and CSS](#html-style-and-css)
+- [HTML Links](#html-links)
+- [HTML Images](#html-images)
+- [HTML Tables](#html-tables)
+- [HTML Lists](#html-lists)
+- [HTML Block \& Inline](#html-block--inline)
+- [HTML Division](#html-division)
+- [HTML Class](#html-class)
+- [HTML Id](#html-id)
+- [HTML iFrame](#html-iframe)
+- [HTML JavaScript](#html-javascript)
+- [HTML Layout](#html-layout)
+- [HTML Responsive](#html-responsive)
+- [HTML Computer Code](#html-computer-code)
+- [HTML Semantics](#html-semantics)
+- [HTML Input](#html-input)
+- [HTML Forms](#html-forms)
+- [HTML Graphics](#html-graphics)
+	- [HTML Canvas](#html-canvas)
+	- [HTML SVG](#html-svg)
+- [HTML Media](#html-media)
+	- [HTML Media](#html-media-1)
+	- [HTML Video](#html-video)
+	- [HTML Audio](#html-audio)
+	- [HTML Plug-ins](#html-plug-ins)
+	- [HTML YoutTube](#html-youttube)
+- [HTML APIs](#html-apis)
+	- [HTML Geolocation](#html-geolocation)
+	- [HTML Drag/Drop](#html-dragdrop)
+	- [HTML Web Storage](#html-web-storage)
+	- [HTML Web Workers](#html-web-workers)
+	- [HTML SSE](#html-sse)
 
 
 ## What is HTML?
@@ -338,3 +376,44 @@ Here is a list of void elements (self-closing tags) in HTML5:
 ### The `base` tag
 ### The `script` tag
 ### The `title` tag
+
+
+## HTML Headings
+## HTML Paragraphs
+## HTML Text Formatting
+## HTML Quotation and Citation Elements
+## HTML Comments
+## HTML Colours
+## HTML Style and CSS
+## HTML Links
+## HTML Images
+## HTML Tables
+## HTML Lists
+## HTML Block & Inline
+## HTML Division
+## HTML Class
+## HTML Id
+## HTML iFrame
+## HTML JavaScript
+## HTML Layout
+## HTML Responsive
+## HTML Computer Code
+## HTML Semantics
+## HTML Input
+## HTML Forms
+## HTML Graphics
+### HTML Canvas
+### HTML SVG
+
+## HTML Media
+### HTML Media
+### HTML Video
+### HTML Audio
+### HTML Plug-ins
+### HTML YoutTube
+## HTML APIs
+### HTML Geolocation
+### HTML Drag/Drop
+### HTML Web Storage
+### HTML Web Workers
+### HTML SSE

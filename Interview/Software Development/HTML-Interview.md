@@ -3,8 +3,18 @@
 - [What is HTML?](#what-is-html)
 - [HTML vs HTML 5](#html-vs-html-5)
 - [HTML vs XHTML](#html-vs-xhtml)
-- [Structure of a simple HTML 5 Document](#structure-of-a-simple-html-5-document)
+	- [What is XHTML?](#what-is-xhtml)
+	- [Why XHTML?](#why-xhtml)
+- [Structure of a simple HTML and HTML 5 Document](#structure-of-a-simple-html-and-html-5-document)
 - [HTML Elements or Tags](#html-elements-or-tags)
+- [HTML Attributes](#html-attributes)
+- [HTML Head Section](#html-head-section)
+	- [The `meta` tag](#the-meta-tag)
+	- [The `linik` tag](#the-linik-tag)
+	- [The `style` tag](#the-style-tag)
+	- [The `base` tag](#the-base-tag)
+	- [The `script` tag](#the-script-tag)
+	- [The `title` tag](#the-title-tag)
 
 
 ## What is HTML?
@@ -236,12 +246,95 @@
 
 ## HTML vs XHTML
 
+### What is XHTML?
+
+<ul>
+	<li>XHTML stands for EXtensible HyperText Markup Language</li>
+	<li>XHTML is a stricter, more XML-based version of HTML</li>
+	<li>XHTML is HTML defined as an XML application</li>
+	<li>XHTML is supported by all major browsers</li>
+</ul>
+
+### Why XHTML?
+
+XML is a markup language where all documents must be marked up correctly (be
+"well-formed"). <br/>
+XHTML was developed to make HTML more extensible and flexible to work with
+other data formats (such as XML). In addition, browsers ignore errors in HTML
+pages, and try to display the website even if it has some errors in the
+markup. So XHTML comes with a much stricter error handling.
+
 <hr/>
 
-## Structure of a simple HTML 5 Document
+## Structure of a simple HTML and HTML 5 Document
+
+HTML:
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Hello, World!</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+```
+HTML 5:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, World!</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+```
 
 <hr/>
 
 ## HTML Elements or Tags
 
+An HTML element is defined by a start tag, some content, and an end tag.
+
+Here is a list of void elements (self-closing tags) in HTML5:
+<ul>
+	<li><code>&lt;area&gt;</code> - Defines a clickable area within an image map.</li>
+	<li><code>&lt;base&gt;</code> - Specifies a base URL for relative URLs in a document.</li>
+	<li><code>&lt;br&gt;</code> - Inserts a line break.</li>
+	<li><code>&lt;col&gt;</code> - Specifies column properties for an HTML table column group.</li>
+	<li><code>&lt;command&gt;</code> (deprecated) - Defines a command that a user can invoke.</li>
+	<li><code>&lt;embed&gt;</code> - Embeds external content (such as multimedia) into the document.</li>
+	<li><code>&lt;hr&gt;</code> - Creates a thematic break or horizontal line.</li>
+	<li><code>&lt;img&gt;</code> - Embeds an image.</li>
+	<li><code>&lt;input&gt;</code> - Defines an input control (like text fields, checkboxes, etc.).</li>
+	<li><code>&lt;keygen&gt;</code> (deprecated) - Generates a key pair for form submission.</li>
+	<li><code>&lt;link&gt;</code> - Defines relationships between the current document and external resources (usually for linking stylesheets).</li>
+	<li><code>&lt;meta&gt;</code> - Defines metadata about an HTML document.</li>
+	<li><code>&lt;param&gt;</code> - Defines parameters for plugins (like <code>&lt;object&gt;</code>).</li>
+	<li><code>&lt;source&gt;</code> - Specifies multiple media resources for elements like <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code>.</li>
+	<li><code>&lt;track&gt;</code> - Provides text tracks for <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements.</li>
+	<li><code>&lt;wbr&gt;</code> - Suggests an optional line break opportunity within text.</li>
+</ul>
+
 <hr/>
+
+## HTML Attributes
+
+-	All HTML elements can have attributes
+-	Attributes provide additional information about elements
+-	Attributes are always specified in the start tag
+-	Attributes usually come in name/value pairs like: name="value"
+
+<hr/>
+
+## HTML Head Section
+
+### The `meta` tag
+### The `linik` tag
+### The `style` tag
+### The `base` tag
+### The `script` tag
+### The `title` tag

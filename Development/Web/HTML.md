@@ -643,6 +643,29 @@ Example:
 
 ## The `script` tag
 
+[Link](https://www.w3schools.com/tags/tag_script.asp)
+
+- The `<script>` tag is used to embed a client-side script (JavaScript).
+- The `<script>` element either contains scripting statements, or it points to an external script file through the `src` attribute.
+
+Example: 
+```
+<head>
+  <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  </script>
+</head>
+```
+
+Attributes:
+- `async`: Specifies that the script is downloaded in parallel to parsing the page, and executed as soon as it is available (before parsing completes) (only for external scripts)
+    - Value: `async`
+  
+- `crossorigin`: Sets the mode of the request to an HTTP CORS Request
+    - Value:
+        - `anonymous`
+        - `use-credentials`
+- `defer`
 <hr/>
 
 ## The `title` tag

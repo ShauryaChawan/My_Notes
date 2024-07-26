@@ -1,7 +1,7 @@
 <center><h1> HTML </h1> </center>
 
--[1. HTML Intro](./HTML/1.%20HTML-Intro.md)
--[2. HTML Elements](./HTML/2.%20HTML-Elements.md)
+- [1. HTML Intro](./HTML/1.%20HTML-Intro.md)
+- [2. HTML Elements](./HTML/2.%20HTML-Elements.md)
 
 # HTML Head Section
 <ul>

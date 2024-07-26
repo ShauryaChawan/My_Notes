@@ -1,1 +1,0 @@
-<h1>Java Web Notes</h1>

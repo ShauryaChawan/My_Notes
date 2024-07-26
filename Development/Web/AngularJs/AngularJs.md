@@ -1,1 +1,0 @@
-<h1>AngularJs Notes</h1>

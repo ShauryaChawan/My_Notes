@@ -1,1 +1,0 @@
-<h1>NextJs Notes</h1>

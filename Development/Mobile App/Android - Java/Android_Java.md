@@ -1,1 +1,0 @@
-<h1>Android Java Notes</h1>

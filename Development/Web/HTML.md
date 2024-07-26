@@ -342,22 +342,127 @@ An HTML element is defined by a start tag, some content, and an end tag.
 
 Here is a list of void elements (self-closing tags) in HTML5:
 <ul>
-	<li><code>&lt;area&gt;</code> - Defines a clickable area within an image map. <a href="https://www.w3schools.com/tags/tag_area.asp" target="_blank">Link</a></li>
-	<li><code>&lt;base&gt;</code> - Specifies a base URL for relative URLs in a document.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;br&gt;</code> - Inserts a line break.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;col&gt;</code> - Specifies column properties for an HTML table column group.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;command&gt;</code> (deprecated) - Defines a command that a user can invoke.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;embed&gt;</code> - Embeds external content (such as multimedia) into the document.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;hr&gt;</code> - Creates a thematic break or horizontal line.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;img&gt;</code> - Embeds an image.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;input&gt;</code> - Defines an input control (like text fields, checkboxes, etc.).<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;keygen&gt;</code> (deprecated) - Generates a key pair for form submission.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;link&gt;</code> - Defines relationships between the current document and external resources (usually for linking stylesheets).<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;meta&gt;</code> - Defines metadata about an HTML document.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;param&gt;</code> - Defines parameters for plugins (like <code>&lt;object&gt;</code>).<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;source&gt;</code> - Specifies multiple media resources for elements like <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code>.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;track&gt;</code> - Provides text tracks for <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements.<a href="" target="_blank">Link</a></li>
-	<li><code>&lt;wbr&gt;</code> - Suggests an optional line break opportunity within text.<a href="" target="_blank">Link</a></li>
+  <li>
+    <code>&lt;area&gt;</code> - Defines a clickable area within an image map.
+    <a href="https://www.w3schools.com/tags/tag_area.asp" target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;base&gt;</code> - Specifies a base URL for relative URLs in a
+    document.<a
+      href="https://www.w3schools.com/tags/tag_base.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;br&gt;</code> - Inserts a line break.<a
+      href="https://www.w3schools.com/tags/tag_br.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;col&gt;</code> - Specifies column properties for an HTML table
+    column group.<a
+      href="https://www.w3schools.com/tags/tag_col.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;embed&gt;</code> - Embeds external content (such as multimedia)
+    into the document.<a
+      href="https://www.w3schools.com/tags/tag_embed.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;hr&gt;</code> - Creates a thematic break or horizontal line.<a
+      href="https://www.w3schools.com/tags/tag_hr.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;img&gt;</code> - Embeds an image.<a
+      href="https://www.w3schools.com/tags/tag_img.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;input&gt;</code> - Defines an input control (like text fields,
+    checkboxes, etc.).<a
+      href="https://www.w3schools.com/tags/tag_input.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;link&gt;</code> - Defines relationships between the current
+    document and external resources (usually for linking stylesheets).<a
+      href="https://www.w3schools.com/tags/tag_link.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;meta&gt;</code> - Defines metadata about an HTML document.<a
+      href="https://www.w3schools.com/tags/tag_meta.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;param&gt;</code> - Defines parameters for plugins (like
+    <code>&lt;object&gt;</code>).<a
+      href="https://www.w3schools.com/tags/tag_param.asp"
+      target="_blank"
+      >'param' Link</a
+    >,<a href="https://www.w3schools.com/tags/tag_object.asp" target="_blank"
+      >'object' Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;source&gt;</code> - Specifies multiple media resources for
+    elements like <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code>.<a
+      href="https://www.w3schools.com/tags/tag_source.asp"
+      target="_blank"
+      >'source' Link</a
+    >,
+    <a href="https://www.w3schools.com/tags/tag_audio.asp" target="_blank"
+      >'audio' Link</a
+    >,
+    <a href="https://www.w3schools.com/tags/tag_video.asp" target="_blank"
+      >'video' Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;track&gt;</code> - Provides text tracks for
+    <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements.<a
+      href="https://www.w3schools.com/tags/tag_track.asp"
+      target="_blank"
+      >'track' Link</a
+    >,
+    <a href="https://www.w3schools.com/tags/tag_audio.asp" target="_blank"
+      >'audio' Link</a
+    >,
+    <a href="https://www.w3schools.com/tags/tag_video.asp" target="_blank"
+      >'video' Link</a
+    >
+  </li>
+  <li>
+    <code>&lt;wbr&gt;</code> - When a word is too long, the browser might break
+    it at the wrong place. You can use the <code>&lt;wbr&gt;</code> element to add word break
+    opportunities. within text.<a
+      href="https://www.w3schools.com/tags/tag_wbr.asp"
+      target="_blank"
+      >Link</a
+    >
+  </li>
 </ul>
 
 <hr/>
@@ -378,11 +483,47 @@ Here is a list of void elements (self-closing tags) in HTML5:
 </ul>
 
 ## The `meta` tag
+[Link](https://www.w3schools.com/tags/att_meta_name.asp)
 <ul>
   <li>The &lt;meta&gt; tag defines metadata about an HTML document.</li>
   <li>Metadata is data (information) about data.</li>
   <li>Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.</li>
 </ul>
+
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A brief description of the page">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Author Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="FrontPage 4.0">
+  <meta http-equiv="content-security-policy" content="default-src 'self'">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="default-style" content="the document's preferred stylesheet">
+  <meta http-equiv="refresh" content="300">
+</head>
+```
+Attributes of <meta> tag:
+-	`charset`: 
+    - Value: character_set
+    - Description: Specifies the character encoding for the HTML document
+-	`content`:
+    - Value: text
+    - Description: Specifies the value associated with the `http-equiv` or `name` attribute
+- `name`: Specifies a name for the metadata
+    - `application-name`: Specifies the name of the Web application that the page represents
+    - `author`: Specifies the name of the author of the document.
+    - `description`: Specifies a description of the page. Search engines can pick up this description to show with the results of searches.
+    - `generator`: Specifies one of the software packages used to generate the document (not used on hand-authored pages).
+    - `keywords`: Specifies a comma-separated list of keywords - relevant to the page (Informs search engines what the page is about).
+    - `viewport`: Controls the viewport (the user's visible area of a web page).
+- `http-equiv`: Provides an HTTP header for the information/value of the content attribute
+    - `content-security-policy`: Specifies a content policy for the document.
+    - `content-type`: Specifies the character encoding for the document.
+    - `default-style`: Specified the preferred style sheet to use.
+    - `refresh`: Defines a time interval for the document to refresh itself.
+
 
 ## The `linik` tag
 ## The `style` tag

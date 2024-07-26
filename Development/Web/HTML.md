@@ -505,12 +505,10 @@ Here is a list of void elements (self-closing tags) in HTML5:
 </head>
 ```
 Attributes of <meta> tag:
--	`charset`: 
+-	`charset`: Specifies the character encoding for the HTML document
     - Value: character_set
-    - Description: Specifies the character encoding for the HTML document
--	`content`:
-    - Value: text
-    - Description: Specifies the value associated with the `http-equiv` or `name` attribute
+-	`content`: Specifies the value associated with the `http-equiv` or `name` attribute
+    - Value: text 
 - `name`: Specifies a name for the metadata
     - `application-name`: Specifies the name of the Web application that the page represents
     - `author`: Specifies the name of the author of the document.
@@ -547,8 +545,8 @@ Attributes of <link> tag:
 
 - `crossorigin`: Specifies how the element handles cross-origin requests
     - Value: 
-        - anonymous
-        - use-credentials
+        - `anonymous`
+        - `use-credentials`
 - `href`: Specifies the location of the linked document
     - Value: URL
 - `hreflang`: Specifies the language of the text in the linked document
@@ -665,11 +663,42 @@ Attributes:
     - Value:
         - `anonymous`
         - `use-credentials`
-- `defer`
+- `defer`: 	Specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing (only for external scripts)
+    - Value: `defer`
+- `integrity`: Allows a browser to check the fetched script to ensure that the code is never loaded if the source has been manipulated
+    - Value: filehash
+- `nomodule`: Specifies that the script should not be executed in browsers supporting ES2015 modules
+    - Value:
+        - `True`
+        - `False`
+- `referrerpolicy`: Specifies which referrer to use when fetching the resource
+    - Value: 
+        - `no-referrer`: No referrer information will be sent along with a request.
+        - `no-referrer-when-downgrade`: (Default). The referrer header will not be sent to origins without HTTPS
+        - `origin`: Send only scheme, host, and port to the request client
+        - `origin-when-cross-origin`:  For cross-origin requests: Send only scheme, host, and port. For same-origin requests: Also include the path
+        - `same-origin`: For same-origin requests: Referrer info will be sent. For cross-origin requests: No referrer info will be sent
+        - `strict-origin`: Only send referrer info if the security level is the same (e.g. HTTPS to HTTPS). Do not send to a less secure destination (e.g. HTTPS to HTTP)
+        - `strict-origin-when-cross-origin`: Send full path when performing a same-origin request. Send only origin when the security level stays the same (e.g. HTTPS to HTTPS). Send no header to a less secure destination (HTTPS to HTTP)
+        - `unsafe-url`: Send origin, path and query string (but not fragment, password, or username). This value is considered unsafe
+- `src`: Specifies the URL of an external script file
+    - Value: URL
+- `type`: Specifies the media type of the script
+    - Value: scripttype
 <hr/>
 
 ## The `title` tag
 
+- The `<title>` tag defines the title of the document. 
+- The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+- It is required in HTML documents!
+- The contents of a page title is very important for search engine optimization (SEO)
+- The page title is used by search engine algorithms to decide the order when listing pages in search results.
+- The <title> element:
+    - defines a title in the browser toolbar
+    - provides a title for the page when it is added to favorites
+    - displays a title for the page in search-engine results
+    - 
 <hr/>
 
 

@@ -11,7 +11,7 @@
   - [HTML Attributes](#html-attributes)
 - [HTML Head Section](#html-head-section)
   - [The `meta` tag](#the-meta-tag)
-  - [The `linik` tag](#the-linik-tag)
+  - [The `link` tag](#the-link-tag)
   - [The `style` tag](#the-style-tag)
   - [The `base` tag](#the-base-tag)
   - [The `script` tag](#the-script-tag)
@@ -525,11 +525,130 @@ Attributes of <meta> tag:
     - `refresh`: Defines a time interval for the document to refresh itself.
 
 
-## The `linik` tag
+## The `link` tag
+
+[Link](https://www.w3schools.com/tags/tag_link.asp)
+
+-	The `<link>` tag defines the relationship between the current document and an external resource.
+-	It is most often used to link to external style sheets or to add a favicon to website.
+-	It is an empty element and contains only attributes.
+
+```
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="tag_link.asp" rel="parent" rev="subsection" hreflang="en">
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link rel="stylesheet" type="text/css" href="print.css" media="print">
+  <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+</head>
+```
+
+Attributes of <link> tag:
+
+- `crossorigin`: Specifies how the element handles cross-origin requests
+    - Value: 
+        - anonymous
+        - use-credentials
+- `href`: Specifies the location of the linked document
+    - Value: URL
+- `hreflang`: Specifies the language of the text in the linked document
+    - Value: language_code
+- `media`: Specifies on what device the linked document will be displayed
+    - Value: 	media_query
+- `referrerpolicy`: Specifies which referrer to use when fetching the resource
+    - Value: 
+        - `no-referrer`: No referrer information will be sent along with a request.
+        - `no-referrer-when-downgrade`: (Default). The referrer header will not be sent to origins without HTTPS
+        - `origin`: Send only scheme, host, and port to the request client
+        - `origin-when-cross-origin`:  For cross-origin requests: Send only scheme, host, and port. For same-origin requests: Also include the path
+        - `same-origin`: For same-origin requests: Referrer info will be sent. For cross-origin requests: No referrer info will be sent
+        - `strict-origin`: Only send referrer info if the security level is the same (e.g. HTTPS to HTTPS). Do not send to a less secure destination (e.g. HTTPS to HTTP)
+        - `strict-origin-when-cross-origin`: Send full path when performing a same-origin request. Send only origin when the security level stays the same (e.g. HTTPS to HTTPS). Send no header to a less secure destination (HTTPS to HTTP)
+        - `unsafe-url`: Send origin, path and query string (but not fragment, password, or username). This value is considered unsafe
+    - Example:
+
+```
+<iframe src="https://w3schools.com/" referrerpolicy="no-referrer"></iframe>
+```
+
+<hr>
+
 ## The `style` tag
+
+[Link](https://www.w3schools.com/tags/tag_style.asp)
+
+The `<style>` tag is used to define style information (CSS) for a document.
+
+Attributes:
+- `media`: Specifies what media/device the media resource is optimized for
+    - Value: media_query
+- `type`: Specifies the media type of the `<style>` tag
+    - Value: text/css
+
+Example: 
+```
+<head>
+  <style>
+    h1 {color:red;}
+    p {color:blue;}
+  </style>
+</head>
+```
+```
+<head>
+  <style media="print">
+    h1 {color:#000000;}
+    p {color:#000000;}
+    body {background-color:#FFFFFF;}
+  </style>
+</head>
+```
+```
+<head>
+  <style type="text/css">
+    h1 {color:red;}
+    p {color:blue;}
+  </style>
+</head>
+```
+
+<hr/>
+
 ## The `base` tag
+
+[Link](https://www.w3schools.com/tags/tag_base.asp)
+
+- The `<base>` tag specifies the base URL and/or target for all relative URLs in a document.
+- It must have either an href or a target attribute present, or both.
+- There can only be one single `<base>` element in a document
+
+Attributes:
+- `href`: Specifies the base URL for all relative URLs in the page
+    - Value: URL
+- `target`: Specifies the default target for all hyperlinks and forms in the page
+    - Value: 
+        - `_blank`
+        - `_parent`
+        - `_self`
+        - `_top`
+
+Example:
+```
+<head>
+  <base href="https://www.w3schools.com/" target="_blank">
+</head>
+```
+
+<hr/>
+
 ## The `script` tag
+
+<hr/>
+
 ## The `title` tag
+
+<hr/>
+
 
 
 # HTML Headings

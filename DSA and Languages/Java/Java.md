@@ -11,3 +11,4 @@
 4. [Java - Input & Output](./notes/4.%20Java%20-%20Input%20&%20Output.md)
 5. [Java - JDK, JRE, JVM & JShell](./notes/5.%20Java%20-%20JDK,%20JRE,%20JVM%20&%20Jshell.md)
 6. [Java - Variables, Identifiers & Data Types](./notes/6.%20Java%20-%20Variables%20&%20Datatypes.md)
+7. [Java - Type Casting](./notes/7.%20Java%20-%20Type%20Casting.md)

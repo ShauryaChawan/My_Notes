@@ -11,7 +11,7 @@
   <li><a href="./Java Notes/2. Java - Hello World.md">Java 'Hello World'</a></li>
   <li><a href="./Java Notes/3. Java Comments.md">Java Comments</a></li>
   <li><a href="./Java Notes/4. Java Input & Output.md">Java Input & Output</a></li>
-  <li><a href="">Java JDK</a></li>
+  <li><a href="">Java JDK and Jshell</a></li>
   <li><a href="#">Java DataTypes, Variables and Identifiers</a></li>
   <li><a href="#">Java Operators</a></li>
   <li><a href="#">Java Conditional Statements</a></li>

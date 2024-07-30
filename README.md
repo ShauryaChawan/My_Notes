@@ -34,10 +34,17 @@ today was holiday
 
 - Web Development
     - [HTML](Development/Web/HTML.md)
+- Java Software Development
+- Mobile Development
+    - React Native
 
 <hr />
 
 <h2>Computer Science Thoery</h2>
+
+- [Operating Systems (OS)](/CS%20Theory/Operating%20Systems%20(OS)/OS.md)
+-
+
 <hr />
 
 <h2>DSA & Languages</h2>

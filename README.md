@@ -39,7 +39,7 @@ today was holiday
 - [C++](./DSA%20and%20Languages/C++/C++.md)
 - [Java](./DSA%20and%20Languages/Java/Java.md)
 - [Python](./DSA%20and%20Languages/Python/Python.md)
-- [DSA](./DSA%20and%20Languages/DSA/DSA.md)\
+- [DSA](./DSA%20and%20Languages/DSA/DSA.md)
 
 <hr />
 

@@ -3,28 +3,12 @@
 today was holiday
 
 <h2>Leet Code</h2>
-<ol>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/TwoSum.md">Two Sum</a>
-    [Easy]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Lucky Numbers in a Matrix.md"
-      >Lucky Number in Matrix</a
-    >
-    [Easy]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Median of Two Sorted Arrays.md"
-      >Median of Two Sorted Arrays</a>
-		[Hard] [Incomplete]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Sort the People.md"
-      >Sort the People</a>
-		[Easy]
-  </li>
-</ol>
+
+- [Two Sum](./DSA%20and%20Languages/LeetCode/TwoSum.md) {Easy}
+- [Lucky Number in Matrix](./DSA%20and%20Languages/LeetCode/Lucky%20Numbers%20in%20a%20Matrix.md) {Easy}
+- [Median of Two Sorted Arrays](./DSA%20and%20Languages/LeetCode/Median%20of%20Two%20Sorted%20Arrays.md) {Hard}{Incomplete}
+- [Sort the People](./DSA%20and%20Languages/LeetCode/Sort%20the%20People.md){Easy}
+
 <hr />
 
 <h2>Artificial Intelligence</h2>
@@ -43,11 +27,20 @@ today was holiday
 <h2>Computer Science Thoery</h2>
 
 - [Operating Systems (OS)](/CS%20Theory/Operating%20Systems%20(OS)/OS.md)
--
+- [Computer Networks (CN)](./CS%20Theory/Computer%20Netowkrs%20(CN)/CN.md)
+- [Database Management Systems (DBMS)](./CS%20Theory/Database%20Management%20Systems%20(DBMS)/DBMS.md)
+- [Software Conceptual Design](./CS%20Theory/Softare%20Conceptual%20Design/SCD.md)
+- [Software Engineering](./CS%20Theory/Software%20Engineering/SE.md)
 
 <hr />
 
 <h2>DSA & Languages</h2>
+
+- [C++](./DSA%20and%20Languages/C++/C++.md)
+- [Java](./DSA%20and%20Languages/Java/Java.md)
+- [Python](./DSA%20and%20Languages/Python/Python.md)
+- [DSA](./DSA%20and%20Languages/DSA/DSA.md)\
+
 <hr />
 
 <h2>Interview</h2>

@@ -18,3 +18,4 @@
 11. [Java - Break & Continue](./notes/11.%20Java%20-%20Break%20&%20Continue.md)
 12. [Java - OOPs](./notes/12.%20Java%20-%20OOPs.md)
 13. [Java - Classes & Objects](./notes/13.%20Java%20-%20Classe%20&%20Objects.md)
+14. [Java - Methods](./notes/14.%20Java%20-%20Methods.md)

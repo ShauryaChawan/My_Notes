@@ -15,3 +15,5 @@
 8. [Java - Operators](./notes/8.%20Java%20-%20Operators.md)
 9. [Java - Flow Control Statement](./notes/9.%20Java%20-%20Flow%20Control%20Statements.md)
 10. [Java - Loops](./notes/10.%20Java%20-%20Loops.md)
+11. [Java - Break & Continue](./notes/11.%20Java%20-%20Break%20and%20Continue.md)
+12. [Java - OOPs](./notes/12.%20Java%20-%20OOPs.md)

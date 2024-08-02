@@ -20,3 +20,4 @@
 13. [Java - Classes & Objects](./notes/13.%20Java%20-%20Classe%20&%20Objects.md)
 14. [Java - Methods](./notes/14.%20Java%20-%20Methods.md)
 15. [Java - Constructors](./notes/15.%20Java%20-%20Constructors.md)
+16. [Java - Modifiers](./notes/16.%20Java%20-%20Modifiers.md)

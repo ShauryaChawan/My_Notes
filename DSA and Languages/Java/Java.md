@@ -21,3 +21,4 @@
 14. [Java - Methods](./notes/14.%20Java%20-%20Methods.md)
 15. [Java - Constructors](./notes/15.%20Java%20-%20Constructors.md)
 16. [Java - Modifiers](./notes/16.%20Java%20-%20Modifiers.md)
+17. [Java - Encapsulation](./notes/17.%20Java%20-%20Encapsulation.md)

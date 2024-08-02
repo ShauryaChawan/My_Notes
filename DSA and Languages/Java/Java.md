@@ -31,7 +31,7 @@
 16. [Java - Modifiers ✅](./notes/16.%20Java%20-%20Modifiers.md)
 17. [Java - Encapsulation ✅](./notes/17.%20Java%20-%20Encapsulation.md)
 18. [Java - Packages & API ✅](./notes/18.%20Java%20-%20Packages%20&%20API.md)
-19. [Java - Inheritance]()
+19. [Java - Inheritance ✅](./notes/19.%20Java%20-%20Inheritance.md)
 20. [Java - Polymorphism]()
 21. [Java - Inner Classes]()
 22. [Java - Abstraction]()

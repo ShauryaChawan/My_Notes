@@ -33,7 +33,7 @@
 18. [Java - Packages & API ✅](./notes/18.%20Java%20-%20Packages%20&%20API.md)
 19. [Java - Inheritance ✅](./notes/19.%20Java%20-%20Inheritance.md)
 20. [Java - Polymorphism ✅](./notes/20.%20Java%20-%20Polymorphism.md)
-21. [Java - Inner Classes]()
+21. [Java - Inner Classes ✅](./notes/21.%20Java%20-%20Inner%20Classes.md)
 22. [Java - Abstraction]()
 23. [Java - Interfaces]()
 24. [Java - Enums]()

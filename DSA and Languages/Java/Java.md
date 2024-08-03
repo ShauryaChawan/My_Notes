@@ -35,7 +35,7 @@
 20. [Java - Polymorphism ✅](./notes/20.%20Java%20-%20Polymorphism.md)
 21. [Java - Inner Classes ✅](./notes/21.%20Java%20-%20Inner%20Classes.md)
 22. [Java - Abstraction ✅](./notes/22.%20Java%20-%20Abstraction.md)
-23. [Java - Interfaces]()
+23. [Java - Interfaces ✅](./notes/23.%20Java%20-%20Interfaces.md)
 24. [Java - Enums]()
 25. [Java - Arrays]()
 26. [Java - Strings]()
@@ -47,31 +47,32 @@
 
 ### Java Standard Template Library (JSTL)
 
-32. [Java - Lambda]()
-33. [Java - Generics & Wildcards]()
+32. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
+33. [Java - Wrapper Classes]()
+34. [Java - Generics & Wildcards]()
 
 #### Java - List
 
-34. [Java - List]()
-35. [Java - ArrayList]()
-36. [Java - LinkedList]()
-37. [Java - Vector]()
-38. [Java - Stack]()
+35. [Java - List]()
+36. [Java - ArrayList]()
+37. [Java - LinkedList]()
+38. [Java - Vector]()
+39. [Java - Stack]()
 
 #### Java - Set
-39. [Java - Set]()
-40. [Java - HashSet]()
-41. [Java - LinkedHashSet]()
-42. [Java - TreeSet]()
+40. [Java - Set]()
+41. [Java - HashSet]()
+42. [Java - LinkedHashSet]()
+43. [Java - TreeSet]()
 
 #### Java - Queue
-43. [Java - Queue]()
-44. [Java - PriorityQueue]()
-45. [Java - Deque]()
-46. [Java - ArrayDeque]()
+44. [Java - Queue]()
+45. [Java - PriorityQueue]()
+46. [Java - Deque]()
+47. [Java - ArrayDeque]()
 
 #### Java - Map
-47. [Java - Map]()
-48. [Java - HashMap]()
-49. [Java - EnumMap]()
-50. [Java - TreeMap]()
+48. [Java - Map]()
+49. [Java - HashMap]()
+50. [Java - EnumMap]()
+51. [Java - TreeMap]()

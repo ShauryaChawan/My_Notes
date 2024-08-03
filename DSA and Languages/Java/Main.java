@@ -1,13 +1,12 @@
+// Functional interface
 @FunctionalInterface
-interface Printer {
-	void print(String message);
+interface MathOperation {
+	int operate(int a, int b);
 }
 
 public class Main {
 	public static void main(String[] args) {
-		// Method reference to an instance method
-		Printer printer = System.out::println;
-
-		printer.print("Hello, World"); // Outputs: Hello, World
+		MathOperation addition = (a, b) -> a + b;
+		System.out.println(addition.operate(5, 3)); // Outputs: 8
 	}
 }

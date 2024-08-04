@@ -38,7 +38,7 @@
 23. [Java - Interfaces ✅](./notes/23.%20Java%20-%20Interfaces.md)
 24. [Java - Enums ✅](./notes/24.%20Java%20-%20Enums.md)
 25. [Java - Arrays ✅](./notes/25.%20Java%20-%20Arrays.md)
-26. [Java - Strings]()
+26. [Java - Strings ✅](./notes/26.%20Java%20-%20Strings.md)
 27. [Java - Dates]()
 28. [Java - MultiThreading]()
 29. [Java - RegEx]()

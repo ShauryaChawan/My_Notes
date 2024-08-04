@@ -42,7 +42,7 @@
 27. [Java - Dates]()
 28. [Java - MultiThreading]()
 29. [Java - RegEx]()
-30. [Java - Exception Handling]()
+30. [Java - Exception Handling ✅](./notes/30.%20Java%20-%20Exception%20Handling.md)
 31. [Java - File Handling]()
 
 ### Java Standard Template Library (JSTL)

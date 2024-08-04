@@ -49,7 +49,7 @@
 
 32. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
 33. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
-34. [Java - Generics & Wildcards]()
+34. [Java - Generics & Wildcards ✅](./notes/34.%20Java%20-%20Generics%20&%20Wildcards.md)
 
 #### Java - List
 

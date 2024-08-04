@@ -1,37 +1,22 @@
-// Superclass
-class Animal {
-  void makeSound() {
-    System.out.println("Animal makes a sound");
-  }
-}
-
-// Subclass
-class Dog extends Animal {
-  @Override
-  void makeSound() {
-    System.out.println("Dog barks");
-  }
-}
-
-// Another subclass
-class Cat extends Animal {
-  @Override
-  void makeSound() {
-    System.out.println("Cat meows");
-  }
+abstract class A {
+  public abstract void show();
 }
 
 public class Main {
   public static void main(String[] args) {
-    // Reference of type Animal
-    Animal myAnimal;
+    
+    /* Following line throws an error, 
+    as abstract classes cannot be instantiated or 
+    we cannot create an object of abstrract classes
+    */
+    // A obj = new A();
 
-    // myAnimal refers to a Dog object
-    myAnimal = new Dog();
-    myAnimal.makeSound(); // Output: Dog barks
-
-    // myAnimal now refers to a Cat object
-    myAnimal = new Cat();
-    myAnimal.makeSound(); // Output: Cat meows
+    // but following code works
+    A obj = new A(){
+      public void show(){
+        System.out.println("in A show");
+      }
+    };
+    obj.show(); // Output: in A show
   }
 }

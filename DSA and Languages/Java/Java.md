@@ -48,7 +48,7 @@
 ### Java Standard Template Library (JSTL)
 
 32. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
-33. [Java - Wrapper Classes]()
+33. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
 34. [Java - Generics & Wildcards]()
 
 #### Java - List

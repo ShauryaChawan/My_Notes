@@ -40,7 +40,7 @@
 25. [Java - Arrays ✅](./notes/25.%20Java%20-%20Arrays.md)
 26. [Java - Strings ✅](./notes/26.%20Java%20-%20Strings.md)
 27. [Java - Dates]()
-28. [Java - MultiThreading]()
+28. [Java - Thread 👨‍💻](./notes/28.%20Java%20-%20Thread.md)
 29. [Java - RegEx]()
 30. [Java - Exception Handling ✅](./notes/30.%20Java%20-%20Exception%20Handling.md)
 31. [Java - File Handling ✅](./notes/31.%20Java%20-%20File%20Handling.md)

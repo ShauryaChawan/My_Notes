@@ -50,29 +50,30 @@
 32. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
 33. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
 34. [Java - Generics & Wildcards ✅](./notes/34.%20Java%20-%20Generics%20&%20Wildcards.md)
+35. [Java - Collections]()
 
 #### Java - List
 
-35. [Java - List]()
-36. [Java - ArrayList]()
-37. [Java - LinkedList]()
-38. [Java - Vector]()
-39. [Java - Stack]()
+36. [Java - List]()
+37. [Java - ArrayList]()
+38. [Java - LinkedList]()
+39. [Java - Vector]()
+40. [Java - Stack]()
 
 #### Java - Set
-40. [Java - Set]()
-41. [Java - HashSet]()
-42. [Java - LinkedHashSet]()
-43. [Java - TreeSet]()
+41. [Java - Set]()
+42. [Java - HashSet]()
+43. [Java - LinkedHashSet]()
+44. [Java - TreeSet]()
 
 #### Java - Queue
-44. [Java - Queue]()
-45. [Java - PriorityQueue]()
-46. [Java - Deque]()
-47. [Java - ArrayDeque]()
+45. [Java - Queue]()
+46. [Java - PriorityQueue]()
+47. [Java - Deque]()
+48. [Java - ArrayDeque]()
 
 #### Java - Map
-48. [Java - Map]()
-49. [Java - HashMap]()
-50. [Java - EnumMap]()
-51. [Java - TreeMap]()
+49. [Java - Map]()
+50. [Java - HashMap]()
+51. [Java - EnumMap]()
+52. [Java - TreeMap]()

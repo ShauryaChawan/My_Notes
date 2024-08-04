@@ -1,18 +1,15 @@
-public class Main {
-  public static void main(String[] args) {
-    // Declare and initialize a 2D array
-    int[][] matrix = {
-        { 1, 2, 3 },
-        { 4, 5, 6 },
-        { 7, 8, 9 }
-    };
+class Main {
+  public static void main(String args[]) {
+    // Declaring Strings
+    String s1 = "TAT";
+    String s2 = "TAT";
+    String s3 = new String("TAT");
+    String s4 = new String("TAT");
 
-    // Looping through elements in a 2D array
-    System.out.println("Iterating through the 2D array:");
-    for (int[] row : matrix) {
-      for (int element : row) {
-        System.out.println("Element: " + element);
-      }
-    }
+    // Printing all the Strings
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.println(s3);
+    System.out.println(s4);
   }
 }

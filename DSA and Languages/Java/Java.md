@@ -10,6 +10,7 @@
 	- [Java - Set](#java---set)
 	- [Java - Queue](#java---queue)
 	- [Java - Map](#java---map)
+- [Java New Features](#java-new-features)
 
 
 ### Java Core
@@ -77,3 +78,10 @@
 50. [Java - HashMap]()
 51. [Java - EnumMap]()
 52. [Java - TreeMap]()
+
+### Java New Features
+
+53. [Java - jshell]()
+54. [Java - LVTI]() 12:38:00
+55. [Java - Sealed Classes & Interfaces]() 12:47:00
+56. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)

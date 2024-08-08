@@ -19,6 +19,10 @@ today was holiday
 - Web Development
     - [HTML](Development/Web/HTML.md)
 - Java Software Development
+  - [JDBC](./Development/Java%20Dev/JDBC/JDBC.md)
+  - [JSP & Servlet]()
+  - [Hibernate]()
+  - [Spring Framework]()
 - Mobile Development
     - React Native
 

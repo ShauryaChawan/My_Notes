@@ -1,6 +1,6 @@
 [🏠 Home](../../README.md)
 
-<h1 style="text-align: center">Java Notes</h1>
+<h1 style="text-align: center">JDBC Notes</h1>
 
 <h2 style="text-align: center">Index</h2>
 

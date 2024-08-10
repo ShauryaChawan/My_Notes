@@ -30,7 +30,7 @@ today was holiday
 
 <h2>Computer Science Thoery</h2>
 
-- [Operating Systems (OS)](/CS%20Theory/Operating%20Systems%20(OS)/OS.md)
+- [Operating Systems (OS)](./CS%20Theory/Operating%20Systems%20(OS)/OS.md)
 - [Computer Networks (CN)](./CS%20Theory/Computer%20Netowkrs%20(CN)/CN.md)
 - [Database Management Systems (DBMS)](./CS%20Theory/Database%20Management%20Systems%20(DBMS)/DBMS.md)
 - [Software Conceptual Design](./CS%20Theory/Softare%20Conceptual%20Design/SCD.md)

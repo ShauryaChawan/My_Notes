@@ -1,6 +1,6 @@
 <p><a href="../../README.md">🏠 Home</a></p>
 
-<center><h1> HTML Notes </h1> </center>
+<center><h1> JS Notes </h1> </center>
 
 <h2> Index </h2>
 

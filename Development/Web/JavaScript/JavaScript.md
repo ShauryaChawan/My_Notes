@@ -4,7 +4,7 @@
 
 <h2> Index </h2>
 
-1. [JS - Introduction]()
+1. [JS - Introduction ✅](./notes/1.%20JS%20-%20Introduction.md)
 2. [JS - Variables & Data Types]()
 3. [JS - Input & Output]()
 4. [JS - Operators]()

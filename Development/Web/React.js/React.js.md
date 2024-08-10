@@ -10,15 +10,8 @@
 
 
 ### React basics
-1. [React Introduction]()
-2. [React JSX]()
-3. [React Components]()
-4. [React Props]()
-5. [React Events]()
-6. [React Conditionals]()
-7. [React Lists]()
-8. [React Router DOM]()
-9. [React Memp]()
+1. [React Introduction](./notes/1.%20React%20-%20Introduction.md)
+2. [React Quick Start](./notes/2.%20React%20-%20Quick%20Start.md)
 
 ### React Hooks
 10. [React Hooks]()
@@ -45,3 +38,7 @@
 29. [React `<Profile>`]()
 30. [React `<StrictMode>`]()
 31. [React `<Suspense>`]()
+
+## Advanced Todo List Project
+
+[Advanced Todo List Project]()

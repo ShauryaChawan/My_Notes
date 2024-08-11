@@ -9,9 +9,15 @@
 - [React Components](#react-components)
 
 
-### React basics
-1. [React Introduction](./notes/1.%20React%20-%20Introduction.md)
-2. [React Quick Start](./notes/2.%20React%20-%20Quick%20Start.md)
+### React Tutorial
+1. [React Introduction ✅](./notes/1.%20React%20-%20Introduction.md)
+2. [React Quick Start ✅](./notes/2.%20React%20-%20Quick%20Start.md)
+3. [Tutorial: Tic-Tac-Toe]()
+4. [Thinking in React]()
+5. [Describing UI]()
+6. [Adding Interactivity]()
+7. [Managing State]()
+8. [Escape Hatches]()
 
 ### React Hooks
 10. [React Hooks]()

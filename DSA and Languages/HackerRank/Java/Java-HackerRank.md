@@ -1,4 +1,4 @@
-[🏠 Home](../../README.md)
+[🏠 Home](../../../README.md)
 
 <h1 style="text-align: center">Java HackerRank</h1>
 

@@ -54,3 +54,7 @@
 40. [Java Sort]()
 41. [Java Comparator ✅](./solved%20problems/41.%20Java%20Comparator.md)
 42. [Java Generics ✅](./solved%20problems/42.%20Java%20Generics.md)
+
+### OOPs
+### Exception Handling
+### Advanced

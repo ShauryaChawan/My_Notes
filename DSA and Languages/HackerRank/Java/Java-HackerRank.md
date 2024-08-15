@@ -34,5 +34,23 @@
 24. [Tag Content Extrator]()
 
 ### BigNumber
-25. [Java BigDecimal]()
-26. 
+25. [Java BigDecimal ✅](./solved%20problems/25.%20Java%20BigDecimal.md)
+26. [Java Primality Test ✅](./solved%20problems/26.%20Java%20Primality%20Test.md)
+27. [Java BigInteger ✅](./solved%20problems/27.%20Java%20BigInteger.md)
+
+### Data Structures
+28. [Java 1D Array ✅](./solved%20problems/28.%20Java%201D%20Array.md)
+29. [Java 1D Array (Part 2)]()
+30. [Java 2D Array ✅](./solved%20problems/30.%20Java%202D%20Array.md)
+31. [Java Arraylist ✅](./solved%20problems/31.%20Java%20ArrayList.md)
+32. [Java Subarray ✅](./solved%20problems/32.%20Java%20Subarray.md)
+33. [Java List]()
+34. [Java Hashset]()
+35. [Java Map]()
+36. [Java Stack]()
+37. [Java Dequeue]()
+38. [Java Priority Queue]()
+39. [Java BitSet]()
+40. [Java Sort]()
+41. [Java Comparator]()
+42. [Java Generics]()

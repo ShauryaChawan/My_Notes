@@ -1,3 +1,7 @@
+[🏠 Home](../../README.md)
+
+<hr>
+
 # 2418. Sort the People
 
 Problem Statement: <a href="https://leetcode.com/problems/sort-the-people/description/?envType=daily-question&envId=2024-07-22">Link</a>
@@ -124,3 +128,8 @@ class Solution {
 	}
 }
 ```
+
+<hr>
+
+[🏠 Home](../../README.md)
+

@@ -1,3 +1,7 @@
+[🏠 Home](../../README.md)
+
+<hr>
+
 # Lucky Numbers in a Matrix
 
 Problem Link : [Link](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question&envId=2024-07-19)
@@ -140,3 +144,7 @@ class Solution {
 	}
 }
 ```
+
+<hr>
+
+[🏠 Home](../../README.md)

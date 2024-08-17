@@ -1,3 +1,7 @@
+[🏠 Home](../../README.md)
+
+<hr>
+
 # Two Sum
 
 Problem Link: [Link](https://leetcode.com/problems/two-sum/description/)
@@ -50,3 +54,6 @@ class Solution {
 }
 
 ```
+<hr>
+
+[🏠 Home](../../README.md)

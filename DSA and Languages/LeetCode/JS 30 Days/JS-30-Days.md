@@ -13,7 +13,7 @@
 7. [Array Reduce Transformation ✅](./solved%20problems/7.%20Array%20Reduce%20Transformation.md)
 8. [Function Composition ✅](./solved%20problems/8.%20Function%20Composition.md)
 9. [Return Length of Arguments Passed ✅](./solved%20problems/9.%20Return%20Length%20of%20Arguments%20Passed.md)
-10. [Allow One Function Call]()
+10. [Allow One Function Call ✅](./solved%20problems/10.%20Allow%20One%20Function%20Call.md)
 11. [Memoize]()
 12. [Add Two Promises]()
 13. [Sleep]()

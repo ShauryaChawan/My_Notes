@@ -8,7 +8,7 @@
 2. [Counter ✅](./solved%20problems/2.%20Counter.md)
 3. [To Be Or Not To Be ✅](./solved%20problems/3.%20To%20Be%20Or%20Not%20To%20Be.md)
 4. [Counter II ✅](./solved%20problems/4.%20Counter%20II.md)
-5. [Apply Transform Over Each Element in Array]()
+5. [Apply Transform Over Each Element in Array ✅](./solved%20problems/5.%20Apply%20Transform%20Over%20Each%20Element%20in%20Array.md)
 6. [Filter Elements from Array]()
 7. [Array Reduce Transformation]()
 8. [Function Composition]()

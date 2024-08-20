@@ -31,8 +31,8 @@
 15. [Weather Observation Station 10](./solved%20problems/15.%20Weather%20Observation%20Station%2010.md)
 16. [Weather Observation Station 11](./solved%20problems/16.%20Weather%20Observation%20Station%2011.md)
 17. [Weather Observation Station 12](./solved%20problems/17.%20Weather%20Observation%20Station%2012.md)
-18. [Higher Than 75 Marks]()
-19. []()
+18. [Higher Than 75 Marks](./solved%20problems/18.%20Higher%20Than%2075%20Marks.md)
+19. [Employee Names](./solved%20problems/19.%20Employee%20Names.md)
 20. []()
 21. []()
 

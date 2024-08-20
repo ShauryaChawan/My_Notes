@@ -33,11 +33,12 @@
 17. [Weather Observation Station 12](./solved%20problems/17.%20Weather%20Observation%20Station%2012.md)
 18. [Higher Than 75 Marks](./solved%20problems/18.%20Higher%20Than%2075%20Marks.md)
 19. [Employee Names](./solved%20problems/19.%20Employee%20Names.md)
-20. []()
-21. []()
-
   
 ### Advanced Select
+20. [Type of Triangle](./solved%20problems/20.%20Type%20of%20Triangle.md)
+21. []()
+22. []()
+23. []()
 
 ### Aggregation
 

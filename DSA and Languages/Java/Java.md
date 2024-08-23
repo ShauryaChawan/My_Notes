@@ -41,47 +41,47 @@
 25. [Java - Arrays ✅](./notes/25.%20Java%20-%20Arrays.md)
 26. [Java - Strings ✅](./notes/26.%20Java%20-%20Strings.md)
 27. [Java - Dates]()
-28. [Java - Thread 👨‍💻](./notes/28.%20Java%20-%20Thread.md)
+28. [Java - Thread ✅](./notes/28.%20Java%20-%20Thread.md)
 29. [Java - RegEx]()
 30. [Java - Exception Handling ✅](./notes/30.%20Java%20-%20Exception%20Handling.md)
 31. [Java - File Handling ✅](./notes/31.%20Java%20-%20File%20Handling.md)
-32. [Java Garbage Collection]()
+32. [Java - Garbage Collection](./notes/32.%20Java%20-%20Garbage%20Collection.md)
 
 ### Java Standard Template Library (JSTL)
 
-32. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
-33. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
-34. [Java - Generics & Wildcards ✅](./notes/34.%20Java%20-%20Generics%20&%20Wildcards.md)
-35. [Java - Collections 👨‍💻](./notes/35.%20Java%20-%20Collections.md)
+33. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
+34. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
+35. [Java - Generics & Wildcards ✅](./notes/34.%20Java%20-%20Generics%20&%20Wildcards.md)
+36. [Java - Collections 👨‍💻](./notes/35.%20Java%20-%20Collections.md)
 
 #### Java - List
 
-36. [Java - List]()
-37. [Java - ArrayList]()
-38. [Java - LinkedList]()
-39. [Java - Vector]()
-40. [Java - Stack]()
+37. [Java - List]()
+38. [Java - ArrayList]()
+39. [Java - LinkedList]()
+40. [Java - Vector]()
+41. [Java - Stack]()
 
 #### Java - Set
-41. [Java - Set]()
-42. [Java - HashSet]()
-43. [Java - LinkedHashSet]()
-44. [Java - TreeSet]()
+42. [Java - Set]()
+43. [Java - HashSet]()
+44. [Java - LinkedHashSet]()
+45. [Java - TreeSet]()
 
 #### Java - Queue
-45. [Java - Queue]()
-46. [Java - PriorityQueue]()
-47. [Java - Deque]()
-48. [Java - ArrayDeque]()
+46. [Java - Queue]()
+47. [Java - PriorityQueue]()
+48. [Java - Deque]()
+49. [Java - ArrayDeque]()
 
 #### Java - Map
-49. [Java - Map]()
-50. [Java - HashMap]()
-51. [Java - EnumMap]()
-52. [Java - TreeMap]()
+50. [Java - Map]()
+51. [Java - HashMap]()
+52. [Java - EnumMap]()
+53. [Java - TreeMap]()
 
 ### Java New Features
-53. [Java - jshell]()
-54. [Java - LVTI]() 12:38:00
-55. [Java - Sealed Classes & Interfaces]() 12:47:00
-56. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)
+54. [Java - jshell]()
+55. [Java - LVTI]() 12:38:00
+56. [Java - Sealed Classes & Interfaces]() 12:47:00
+57. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)

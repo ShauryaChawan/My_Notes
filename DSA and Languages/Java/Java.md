@@ -45,7 +45,7 @@
 29. [Java - RegEx]()
 30. [Java - Exception Handling ✅](./notes/30.%20Java%20-%20Exception%20Handling.md)
 31. [Java - File Handling ✅](./notes/31.%20Java%20-%20File%20Handling.md)
-32. [Java - Garbage Collection](./notes/32.%20Java%20-%20Garbage%20Collection.md)
+32. [Java - Garbage Collection ✅](./notes/32.%20Java%20-%20Garbage%20Collection.md)
 
 ### Java Standard Template Library (JSTL)
 

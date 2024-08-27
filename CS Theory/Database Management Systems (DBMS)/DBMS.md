@@ -6,6 +6,29 @@
 
 [Folder Path](./CodeHelper-Notes/)
 
+1. [L1 - DBMS Introduction](./CodeHelper-Notes/L1%20-%20DBMS%20Introduction/)
+2. [L2 - DBMS Architechture](./CodeHelper-Notes/L2%20-%20DBMS%20Architecture/)
+3. [L3 - ER Model](./CodeHelper-Notes/L3%20-%20ER%20Model/)
+4. [L4 - Extended ER Model](./CodeHelper-Notes/L4%20-%20Extended%20ER%20Features/)
+5. [L5 - Hot to think and formulate an ER Diagram](./CodeHelper-Notes/L5%20-%20How%20to%20think%20and%20formulate%20an%20ER%20Diagram/)
+6. [L6 - Designing the ER Model of FACEBOOK Database](./CodeHelper-Notes/L6%20-%20Designing%20the%20ER%20Model%20of%20FACEBOOK%20Database/)
+7. [L7 - Relational Model Explained](./CodeHelper-Notes/L7%20-%20Relational%20Model%20Explained/)
+8. [L8 - Transform ER Model to Relational Model](./CodeHelper-Notes/L8%20-%20Transform%20ER%20Model%20to%20Relational%20Model/)
+9. [L9 - Complete SQL in 1 VIDEO](./CodeHelper-Notes/L9%20-%20Complete%20SQL%20in%201%20VIDEO/)
+10. []()
+11. []()
+12. []()
+13. []()
+14. []()
+15. []()
+16. []()
+17. []()
+18. []()
+19. []()
+20. []()
+21. []()
+22. []()
+
 <h2 style="text-align: center">Notes</h2>
 
 - [DBMS Introduction](#dbms-introduction)

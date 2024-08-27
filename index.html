@@ -1,95 +1,98 @@
-<h1 style="text-align: center">Notes By Shaurya</h1>
-
-today was holiday
-
-<h2>Leet Code</h2>
-<ol>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/TwoSum.md">Two Sum</a>
-    [Easy]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Lucky Numbers in a Matrix.md"
-      >Lucky Number in Matrix</a
-    >
-    [Easy]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Median of Two Sorted Arrays.md"
-      >Median of Two Sorted Arrays</a>
-		[Hard] [Incomplete]
-  </li>
-  <li style="margin-bottom: 15px">
-    <a href="/DSA and Languages/LeetCode/Sort the People.md"
-      >Sort the People</a>
-		[Easy]
-  </li>
-</ol>
-<hr />
-
-<h2>Artificial Intelligence</h2>
-<hr />
-
-<h2>Software Development</h2>
-
-- Web Development
-    - [HTML](Development/Web/HTML.md)
-
-<hr />
-
-<h2>Computer Science Thoery</h2>
-
-<hr />
-
-<h2>DSA & Languages</h2>
-<hr />
-
-<h2>Interview</h2>
-<ul>
-	<li>Software Development</li>
-	<ul>
-		<li>Web Frontend Development</li>
-		<ol>
-			<li><a href="/Interview/Software Development/HTML-Interview.md">HTML Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/CSS-Interview.md">CSS Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/JavaScript-Interview.md">Javascript Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/React.js-Interview.md">React.js Interview Questions</a></li>
-		</ol>
-		<li>Mobile App Development</li>
-		<ol>
-			<li><a href="/Interview/Software Development/ReactNative-Interview.md">React Native Interview Questions</a></li>
-		</ol>
-		<li>Backend Development</li>
-		<ol>
-			<li><a href="/Interview/Software Development/Node.js-Interview.md">Node.js Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/Express.js-Interview.md">Express.js Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/MongoDB-Interview.md">MongoDB Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/PostgreSQL-Interview.md">PostgreSQL Interview Questions</a></li>
-			<li><a href="/Interview/Software Development/SQL-Interview.md">SQL Interview Questions</a></li>
-		</ol>
-	</ul>
-	<li>Artificial Intelligence</li>
-	<li>Computer Science Thoery</li>
-	<ol>
-		<li><a href="/Interview/CS Theory/CN-Interview.md">Computer Networks (CN)</a></li>
-		<li><a href="/Interview/CS Theory/DBMS-Interview.md">Database Management System (DBMS)</a></li>
-		<li><a href="/Interview/CS Theory/OOPs-Interview.md">Object Oriented Programming (OOPs)</a></li>
-		<li><a href="/Interview/CS Theory/OS-Interview.md">Operating System (OS)</a></li>
-	</ol>
-	<li>DSA & Languages</li>
-	<ol>
-		<li><a href="/Interview/DSA and Languages/C++-Interview.md">C++ Interview Questions</a></li>
-		<li><a href="/Interview/DSA and Languages/Java-Interview.md">Java Interview Questions</a></li>
-		<li><a href="/Interview/DSA and Languages/Python-Interview.md">Python Interview Questions</a></li>
-	</ol>
-	<li>Projects</li>
-	<ol>
-		<li><a href="https://github.com/ShauryaChawan/Recipe-Finder">Recipe Finder</a></li>
-		<li><a href="https://github.com/ShauryaChawan/Home-Town">Home Town</a></li>
-		<li><a href="https://github.com/ShauryaChawan/Chat-Application">Chat Application</a></li>
-		<li><a href="https://github.com/ShauryaChawan/Fiverr-Clone">Fiverr.com Clone</a></li>
-		<li><a href="https://lucky-treacle-28f419.netlify.app/">Nexus Traders</a></li>
-		<li>Booking.com</li>
-	</ol>
-</ul>
-<hr />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scanner vs BufferedReader</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Scanner vs BufferedReader Comparison</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Scanner</th>
+      <th>BufferedReader</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Purpose</strong></td>
+      <td>
+        Used for parsing and reading different data types (e.g., integers,
+        strings).
+      </td>
+      <td>
+        Used for reading text from a file or input stream efficiently.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Input Types</strong></td>
+      <td>
+        Can parse primitives and strings using methods like nextInt(),
+        nextDouble(), nextLine(), etc.
+      </td>
+      <td>
+        Reads text line-by-line using readLine() method. Parsing needs to be
+        handled separately.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Performance</strong></td>
+      <td>
+        Generally slower compared to BufferedReader due to additional
+        parsing overhead.
+      </td>
+      <td>
+        Generally faster for reading large chunks of text due to buffering.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Handling of Delimiters</strong></td>
+      <td>
+        Handles delimiters (like spaces or commas) and provides methods to
+        set custom delimiters.
+      </td>
+      <td>
+        Does not handle delimiters; reads entire lines or characters as
+        specified.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Exception Handling</strong></td>
+      <td>
+        Can throw exceptions like InputMismatchException and
+        NoSuchElementException.
+      </td>
+      <td>Throws IOException for input/output operations.</td>
+    </tr>
+    <tr>
+      <td><strong>Use Case</strong></td>
+      <td>
+        Ideal for reading formatted input, such as user input or data from a
+        file where data types are mixed.
+      </td>
+      <td>
+        Ideal for reading large volumes of text efficiently or reading text
+        line-by-line from a file.
+      </td>
+    </tr>
+  </tbody>
+</table>
+  </body>
+</html>

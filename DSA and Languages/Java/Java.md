@@ -81,7 +81,8 @@
 53. [Java - TreeMap]()
 
 ### Java New Features
-54. [Java - jshell]()
-55. [Java - LVTI]() 12:38:00
-56. [Java - Sealed Classes & Interfaces]() 12:47:00
-57. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)
+54. [Java 8 new Features]()
+55. [Java - jshell]()
+56. [Java - LVTI]() 12:38:00
+57. [Java - Sealed Classes & Interfaces]() 12:47:00
+58. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)

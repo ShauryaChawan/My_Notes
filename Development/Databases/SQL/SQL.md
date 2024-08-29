@@ -4,7 +4,8 @@
 
 <h2 style="text-align: center">Index</h2>
 
-1. [SQL Introduction ✅](./notes/1.%20SQL%20-%20Introduction.md)
-2. [SQL `SELECT` Statement ✅](./notes/2.%20SQL%20-%20SELECT.md)
-
-3. []
+1. [SQL - TCL Commands ✅](./notes/SQL%20-%20TCL%20Commands.md)
+2. [SQL - ]()
+3. []()
+4. []()
+5. []()

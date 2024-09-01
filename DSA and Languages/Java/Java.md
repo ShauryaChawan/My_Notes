@@ -81,7 +81,7 @@
 53. [Java - TreeMap]()
 
 ### Java New Features
-54. [Java 8 new Features]()
+54. [Java 8 new Features](./notes/54.%20Java%208%20New%20Features.md)
 55. [Java - Stream API]()
 56. [Java - LVTI]() 12:38:00
 57. [Java - Sealed Classes & Interfaces]() 12:47:00

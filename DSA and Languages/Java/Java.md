@@ -56,7 +56,7 @@
 
 #### Java - List
 
-37. [Java - List]()
+37. [Java - List ✅](./notes/37.%20Java%20-%20List.md)
 38. [Java - ArrayList]()
 39. [Java - LinkedList]()
 40. [Java - Vector]()

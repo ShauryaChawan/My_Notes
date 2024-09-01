@@ -1,109 +1,237 @@
 <table border="1">
   <thead>
     <tr>
-      <th>Feature</th>
-      <th>Hashtable</th>
-      <th>LinkedHashMap</th>
+      <th>Method Name</th>
+      <th>Return Type</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Definition</td>
+      <td>addAll(Collection&lt;? super T&gt; c, T... elements)</td>
+      <td>boolean</td>
+      <td>Adds all of the specified elements to the specified collection.</td>
+    </tr>
+    <tr>
+      <td>asLifoQueue(Deque&lt;T&gt; deque)</td>
+      <td>Queue&lt;T&gt;</td>
+      <td>Returns a view of a Deque as a Last-In-First-Out (LIFO) Queue.</td>
+    </tr>
+    <tr>
+      <td>binarySearch(List&lt;? extends T&gt; list, T key)</td>
+      <td>int</td>
       <td>
-        A legacy class that implements a synchronized hash table for key-value
-        pairs.
-      </td>
-      <td>
-        A hash table and linked list implementation of the
-        <code>Map</code> interface that maintains insertion order.
+        Searches the specified list for the specified object using binary
+        search.
       </td>
     </tr>
     <tr>
-      <td>Synchronization</td>
+      <td>copy(List&lt;? super T&gt; dest, List&lt;? extends T&gt; src)</td>
+      <td>void</td>
+      <td>Copies all of the elements from one list into another.</td>
+    </tr>
+    <tr>
+      <td>disjoint(Collection&lt;?&gt; c1, Collection&lt;?&gt; c2)</td>
+      <td>boolean</td>
       <td>
-        Synchronized. It is thread-safe, meaning multiple threads can access it
-        concurrently without corrupting data.
-      </td>
-      <td>
-        Not synchronized. It is not thread-safe and requires external
-        synchronization for use in concurrent contexts.
+        Returns true if the two specified collections have no elements in
+        common.
       </td>
     </tr>
     <tr>
-      <td>Null Keys/Values</td>
-      <td>Does not allow null keys or null values.</td>
-      <td>Allows one null key and multiple null values.</td>
+      <td>emptyList()</td>
+      <td>List&lt;T&gt;</td>
+      <td>Returns an empty, immutable list.</td>
     </tr>
     <tr>
-      <td>Ordering</td>
-      <td>
-        Does not guarantee any specific order of elements. The order is based on
-        the hash codes of the elements.
-      </td>
-      <td>
-        Maintains elements in the order they were inserted, due to the linked
-        list component.
-      </td>
+      <td>emptyMap()</td>
+      <td>Map&lt;K, V&gt;</td>
+      <td>Returns an empty, immutable map.</td>
     </tr>
     <tr>
-      <td>Performance</td>
-      <td>Generally slower due to synchronization overhead.</td>
-      <td>
-        Provides slightly slower performance than <code>HashMap</code> due to
-        additional overhead of maintaining the linked list, but generally faster
-        than <code>Hashtable</code>.
-      </td>
+      <td>emptySet()</td>
+      <td>Set&lt;T&gt;</td>
+      <td>Returns an empty, immutable set.</td>
     </tr>
     <tr>
-      <td>Legacy Status</td>
-      <td>Introduced in JDK 1.0. Considered a legacy class.</td>
+      <td>fill(List&lt;? super T&gt; list, T obj)</td>
+      <td>void</td>
       <td>
-        Introduced in JDK 1.2 as part of the Collections Framework. Not a legacy
-        class.
+        Replaces all of the elements of the specified list with the specified
+        element.
       </td>
     </tr>
     <tr>
-      <td>Thread-Safety</td>
-      <td>Built-in thread safety due to synchronized methods.</td>
+      <td>frequency(Collection&lt;?&gt; c, Object o)</td>
+      <td>int</td>
       <td>
-        Not thread-safe. Use <code>Collections.synchronizedMap</code> for
-        thread-safe operations.
+        Returns the number of occurrences of the specified element in the
+        specified collection.
       </td>
     </tr>
     <tr>
-      <td>Iterator</td>
-      <td>The iterator is not fail-fast.</td>
+      <td>indexOfSubList(List&lt;?&gt; source, List&lt;?&gt; target)</td>
+      <td>int</td>
       <td>
-        The iterator is fail-fast, meaning it will throw a
-        <code>ConcurrentModificationException</code> if the map is modified
-        while iterating.
+        Returns the starting position of the first occurrence of the specified
+        target list within the source list.
       </td>
     </tr>
     <tr>
-      <td>Use Case</td>
+      <td>lastIndexOfSubList(List&lt;?&gt; source, List&lt;?&gt; target)</td>
+      <td>int</td>
       <td>
-        Suitable for legacy code that requires a thread-safe implementation of a
-        hash table.
-      </td>
-      <td>
-        Preferred when you need a map that maintains insertion order with better
-        performance than <code>Hashtable</code>.
+        Returns the starting position of the last occurrence of the specified
+        target list within the source list.
       </td>
     </tr>
     <tr>
-      <td>Examples</td>
+      <td>list(Enumeration&lt;T&gt; e)</td>
+      <td>ArrayList&lt;T&gt;</td>
       <td>
-        <code
-          >Hashtable&lt;String, Integer&gt; hashtable = new
-          Hashtable&lt;&gt;();</code
-        >
+        Returns an ArrayList containing the elements returned by the specified
+        enumeration.
       </td>
+    </tr>
+    <tr>
+      <td>max(Collection&lt;? extends T&gt; coll)</td>
+      <td>T</td>
       <td>
-        <code
-          >LinkedHashMap&lt;String, Integer&gt; linkedHashMap = new
-          LinkedHashMap&lt;&gt;();</code
-        >
+        Returns the maximum element of the given collection, according to the
+        natural ordering of its elements.
       </td>
+    </tr>
+    <tr>
+      <td>min(Collection&lt;? extends T&gt; coll)</td>
+      <td>T</td>
+      <td>
+        Returns the minimum element of the given collection, according to the
+        natural ordering of its elements.
+      </td>
+    </tr>
+    <tr>
+      <td>nCopies(int n, T o)</td>
+      <td>List&lt;T&gt;</td>
+      <td>
+        Returns an immutable list consisting of n copies of the specified
+        object.
+      </td>
+    </tr>
+    <tr>
+      <td>replaceAll(List&lt;T&gt; list, T oldVal, T newVal)</td>
+      <td>boolean</td>
+      <td>
+        Replaces all occurrences of one specified value in a list with another.
+      </td>
+    </tr>
+    <tr>
+      <td>reverse(List&lt;?&gt; list)</td>
+      <td>void</td>
+      <td>Reverses the order of the elements in the specified list.</td>
+    </tr>
+    <tr>
+      <td>shuffle(List&lt;?&gt; list)</td>
+      <td>void</td>
+      <td>
+        Randomly permutes the specified list using a default source of
+        randomness.
+      </td>
+    </tr>
+    <tr>
+      <td>singleton(T o)</td>
+      <td>Set&lt;T&gt;</td>
+      <td>Returns an immutable set containing only the specified object.</td>
+    </tr>
+    <tr>
+      <td>singletonList(T o)</td>
+      <td>List&lt;T&gt;</td>
+      <td>Returns an immutable list containing only the specified object.</td>
+    </tr>
+    <tr>
+      <td>singletonMap(K key, V value)</td>
+      <td>Map&lt;K, V&gt;</td>
+      <td>
+        Returns an immutable map containing only the specified key-value pair.
+      </td>
+    </tr>
+    <tr>
+      <td>sort(List&lt;T&gt; list)</td>
+      <td>void</td>
+      <td>
+        Sorts the specified list into ascending order, according to the natural
+        ordering of its elements.
+      </td>
+    </tr>
+    <tr>
+      <td>swap(List&lt;?&gt; list, int i, int j)</td>
+      <td>void</td>
+      <td>
+        Swaps the elements at the specified positions in the specified list.
+      </td>
+    </tr>
+    <tr>
+      <td>unmodifiableList(List&lt;? extends T&gt; list)</td>
+      <td>List&lt;T&gt;</td>
+      <td>Returns an unmodifiable view of the specified list.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableMap(Map&lt;? extends K, ? extends V&gt; map)</td>
+      <td>Map&lt;K, V&gt;</td>
+      <td>Returns an unmodifiable view of the specified map.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableSet(Set&lt;? extends T&gt; s)</td>
+      <td>Set&lt;T&gt;</td>
+      <td>Returns an unmodifiable view of the specified set.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableCollection(Collection&lt;? extends T&gt; c)</td>
+      <td>Collection&lt;T&gt;</td>
+      <td>Returns an unmodifiable view of the specified collection.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableSortedMap(SortedMap&lt;K, ? extends V&gt; m)</td>
+      <td>SortedMap&lt;K, V&gt;</td>
+      <td>Returns an unmodifiable view of the specified sorted map.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableSortedSet(SortedSet&lt;T&gt; s)</td>
+      <td>SortedSet&lt;T&gt;</td>
+      <td>Returns an unmodifiable view of the specified sorted set.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableNavigableMap(NavigableMap&lt;K, ? extends V&gt; m)</td>
+      <td>NavigableMap&lt;K, V&gt;</td>
+      <td>Returns an unmodifiable view of the specified navigable map.</td>
+    </tr>
+    <tr>
+      <td>unmodifiableNavigableSet(NavigableSet&lt;T&gt; s)</td>
+      <td>NavigableSet&lt;T&gt;</td>
+      <td>Returns an unmodifiable view of the specified navigable set.</td>
+    </tr>
+    <tr>
+      <td>rotate(List&lt;?&gt; list, int distance)</td>
+      <td>void</td>
+      <td>
+        Rotates the elements in the specified list by the specified distance.
+      </td>
+    </tr>
+    <tr>
+      <td>synchronizedList(List&lt;T&gt; list)</td>
+      <td>List&lt;T&gt;</td>
+      <td>
+        Returns a synchronized (thread-safe) list backed by the specified list.
+      </td>
+    </tr>
+    <tr>
+      <td>synchronizedMap(Map&lt;K,V&gt; m)</td>
+      <td>Map&lt;K, V&gt;</td>
+      <td>
+        Returns a synchronized (thread-safe) map backed by the specified map.
+      </td>
+    </tr>
+    <tr>
+      <td>synchronizedSet(Set</td>
     </tr>
   </tbody>
 </table>

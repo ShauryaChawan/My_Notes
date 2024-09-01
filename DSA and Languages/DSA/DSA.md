@@ -4,7 +4,11 @@
 
 <hr/>
 
-ToDO:
+💡**NOTE**💡 
+
+These notes are only created for Java DSA !!
+
+## ToDO:
 1. Code in C++, Java, and Python
 2. Code with in-built template lbraries of C++, Java and Python
 3. CURD Operation on All Data Structures
@@ -48,7 +52,6 @@ ToDO:
    9. [B+ Tree]() 
    10. [Red-Black Tree]() 
 10. [Graph]()
-
 11. [Shortest Path]()
    1. [Dijkstra's Algorithm]()
    2. [Bellman-Ford]()

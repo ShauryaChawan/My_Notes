@@ -38,21 +38,21 @@
 22. [Java - Abstraction ✅](./notes/22.%20Java%20-%20Abstraction.md)
 23. [Java - Interfaces ✅](./notes/23.%20Java%20-%20Interfaces.md)
 24. [Java - Enums ✅](./notes/24.%20Java%20-%20Enums.md)
-25. [Java - Arrays ✅](./notes/25.%20Java%20-%20Arrays.md)
+25. [Java - Arrays 👨‍💻](./notes/25.%20Java%20-%20Arrays.md)
 26. [Java - Strings ✅](./notes/26.%20Java%20-%20Strings.md)
 27. [Java - Dates]()
-28. [Java - Thread ✅](./notes/28.%20Java%20-%20Thread.md)
+28. [Java - Thread 👨‍💻](./notes/28.%20Java%20-%20Thread.md)
 29. [Java - RegEx]()
-30. [Java - Exception Handling ✅](./notes/30.%20Java%20-%20Exception%20Handling.md)
+30. [Java - Exception Handling 👨‍💻](./notes/30.%20Java%20-%20Exception%20Handling.md)
 31. [Java - File Handling ✅](./notes/31.%20Java%20-%20File%20Handling.md)
 32. [Java - Garbage Collection ✅](./notes/32.%20Java%20-%20Garbage%20Collection.md)
 
 ### Java Standard Template Library (JSTL)
 
-33. [Java - Lambda ✅](./notes/32.%20Java%20-%20Lambda.md)
-34. [Java - Wrapper Classes ✅](./notes/33.%20Java%20-%20Wrapper%20Classes.md)
-35. [Java - Generics & Wildcards ✅](./notes/34.%20Java%20-%20Generics%20&%20Wildcards.md)
-36. [Java - Collections 👨‍💻](./notes/35.%20Java%20-%20Collections.md)
+33. [Java - Lambda ✅](./notes/33.%20Java%20-%20Lambda.md)
+34. [Java - Wrapper Classes ✅](./notes/34.%20Java%20-%20Wrapper%20Classes.md)
+35. [Java - Generics & Wildcards ✅](./notes/35.%20Java%20-%20Generics%20&%20Wildcards.md)
+36. [Java - Collections ✅](./notes/36.%20Java%20-%20Collections.md)
 
 #### Java - List
 
@@ -82,7 +82,7 @@
 
 ### Java New Features
 54. [Java 8 new Features]()
-55. [Java - jshell]()
+55. [Java - Stream API]()
 56. [Java - LVTI]() 12:38:00
 57. [Java - Sealed Classes & Interfaces]() 12:47:00
 58. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)

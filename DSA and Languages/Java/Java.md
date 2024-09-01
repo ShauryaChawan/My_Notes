@@ -10,7 +10,7 @@
 	- [Java - Set](#java---set)
 	- [Java - Queue](#java---queue)
 	- [Java - Map](#java---map)
-- [Java New Features](#java-new-features)
+- [Java Advanced Topics](#java-advanced-topics)
 
 
 ### Java Core
@@ -80,9 +80,11 @@
 52. [Java - EnumMap]()
 53. [Java - TreeMap]()
 
-### Java New Features
+### Java Advanced Topics
 54. [Java 8 new Features](./notes/54.%20Java%208%20New%20Features.md)
-55. [Java - Stream API]()
-56. [Java - LVTI]() 12:38:00
-57. [Java - Sealed Classes & Interfaces]() 12:47:00
-58. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)
+55. [Java - Iterators]()
+56. [Java - Stream API]()
+57. [Java - Advanced Sorting(Comparator and Comparable)]()
+58. [Java - LVTI]() 12:38:00
+59. [Java - Sealed Classes & Interfaces]() 12:47:00
+60. [Java - Record Classes]() 12:57:15 (record class, conical constructor, compact conical constructor)

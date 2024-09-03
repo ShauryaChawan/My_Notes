@@ -81,9 +81,9 @@
 53. [Java - TreeMap]()
 
 ### Java Advanced Topics
-54. [Java 8 new Features](./notes/54.%20Java%208%20New%20Features.md)
-55. [Java - Iterators]()
-56. [Java - Stream API]()
+54. [Java 8 new Features ✅](./notes/54.%20Java%208%20New%20Features.md)
+55. [Java - Iterators ✅](./notes/55.%20Java%20-%20Iterators.md)
+56. [Java - Stream API 🛠️](./notes/56.%20Java%20-%20Stream%20API.md)
 57. [Java - Advanced Sorting(Comparator and Comparable)]()
 58. [Java - LVTI]() 12:38:00
 59. [Java - Sealed Classes & Interfaces]() 12:47:00

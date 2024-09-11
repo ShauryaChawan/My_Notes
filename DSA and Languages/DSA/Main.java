@@ -1,25 +1,23 @@
 public class Main {
-	public static void main(String arg[]){
-			//size of all arrays
-int size = 4;
+	public static void main(String[] args) {
+		int[] arr = { 3, 7, 2, 9, 5 };
+		int targetVal = 9;
 
-//type 1
-int arr1[size] = {0,1,2,3};     //arr1 => |0|1|2|3|
+		int result = linearSearch(arr, targetVal);
 
-//type 2
-int arr2[size];
-arr2 = {0,1,2,3};               //arr2 => |0|1|2|3|
-
-//type 3
-int arr3[size] = {0};           // arr3 => |0|0|0|0|
-
-//type 4
-int arr4[size] = {1};           // arr4 => |1|0|0|0|
-
-//type 5
-int arr5[size] = {};            // arr5 => |0|0|0|0|
-
-//type 6
-int arr6[] = {0,2};             // arr6 => |0|2|0|0|
+		if (result != -1) {
+			System.out.println("Value " + targetVal + " found at index " + result);
+		} else {
+			System.out.println("Value " + targetVal + " not found");
 		}
+	}
+
+	public static int linearSearch(int[] arr, int targetVal) {
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] == targetVal) {
+				return i;
+			}
+		}
+		return -1;
+	}
 }

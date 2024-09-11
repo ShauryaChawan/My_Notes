@@ -4,13 +4,13 @@
 
 <hr/>
 
-### 📝 Index 📝
+### Index
 
-- [📝 Index 📝](#-index-)
+- [Index](#index)
 - [ToDO:](#todo)
 - [Abstract Data Types](#abstract-data-types)
 - [Arrays](#arrays)
-- [🔍 Searching 🔍](#-searching-)
+- [Searching](#searching)
 - [Sorting](#sorting)
 - [LinkedList](#linkedlist)
 - [Stack](#stack)
@@ -44,9 +44,9 @@ These notes are only created for Java DSA !!
 
 2. [Arrays]()
 
-### 🔍 Searching 🔍
+### Searching
 
-3. [Linear Search]()
+3. [Linear Search](./notes/3.%20LinearSearch.md)
 4. [Binary Search]()
 
 ### Sorting

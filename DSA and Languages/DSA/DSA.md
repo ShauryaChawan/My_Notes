@@ -47,12 +47,12 @@ These notes are only created for Java DSA !!
 ### Searching
 
 3. [Linear Search](./notes/3.%20LinearSearch.md)
-4. [Binary Search]()
+4. [Binary Search](./notes/4.%20BinarySearch.md)
 
 ### Sorting
 
-5. [Bubble Sort]()
-6. [Selection Sort]()
+5. [Bubble Sort](./notes/5.%20Bubble%20Sort.md)
+6. [Selection Sort](./notes/6.%20SeletionSort.md)
 7. [Insertion Sort]()
 8. [Quick Sort]()
 9.  [Counting Sort]()

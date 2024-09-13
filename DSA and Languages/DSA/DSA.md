@@ -53,11 +53,11 @@ These notes are only created for Java DSA !!
 
 5. [Bubble Sort](./notes/5.%20Bubble%20Sort.md)
 6. [Selection Sort](./notes/6.%20SeletionSort.md)
-7. [Insertion Sort]()
-8. [Quick Sort]()
-9.  [Counting Sort]()
-10. [Radix Sort]()
-11. [Merge Sort]()
+7. [Insertion Sort](./notes/7.%20InsertionSort.md)
+8. [Quick Sort](./notes/8.%20QuickSort.md)
+9.  [Counting Sort](./notes/9.%20CountingSort.md)
+10. [Radix Sort](./notes/10.%20RadixSort.md)
+11. [Merge Sort](./notes/11.%20MergeSort.md)
 
 ### LinkedList
 

@@ -43,6 +43,8 @@ These notes are only created for Java DSA !!
 ### Arrays
 
 2. [Arrays]()
+3. [2D Array]()
+4. [2D Array]()
 
 ### Searching
 
@@ -61,7 +63,8 @@ These notes are only created for Java DSA !!
 
 ### LinkedList
 
-13. [Singly Linked List]()
+12. [Linked List](./notes/12.%20LinkedList.md)
+13. [Singly Linked List](./notes/13.%20SinglyLinkedList.md)
 14. [Doubly Linked List]()
 15. [Circular Linked List]()
 16. [Circular Doubly Linked List]()

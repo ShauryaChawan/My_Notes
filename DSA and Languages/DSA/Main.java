@@ -1,131 +1,71 @@
-class Node {
-	int data;
-	Node prev, next;
+public class Main {
+    public static void main(String[] args) {
+        Stack myStack = new Stack(10);
 
-	Node(int data) {
-		this.data = data;
-		this.prev = this.next = null;
-	}
+        myStack.push('A');
+        myStack.push('B');
+        myStack.push('C');
+
+        // Print initial stack
+        System.out.print("Stack: ");
+        myStack.printStack();
+
+        System.out.println("Pop: " + myStack.pop());
+        System.out.println("Peek: " + myStack.peek());
+        System.out.println("isEmpty: " + myStack.isEmpty());
+        System.out.println("Size: " + myStack.size());
+    }
 }
 
-class CircularDoublyLinkedList {
-	private Node head;
+class Stack {
+    char[] stack;
+    int top;
+    int capacity;
 
-	// Insert a new node at the end of the list
-	public void insertNode(int data) {
-		insertLast(data);
-	}
+    public Stack(int capacity) {
+        this.capacity = capacity;
+        this.stack = new char[capacity];
+        this.top = -1;
+    }
 
-	// Overloaded insertNode to insert at a specified index
-	public void insertNode(int data, int index) {
-		Node newNode = new Node(data);
+    public void push(char element) {
+        if (top == capacity - 1) {
+            System.out.println("Stack is full");
+            return;
+        }
+        stack[++top] = element;
+    }
 
-		if (index == 0) {
-			insertFirst(data);
-			return;
-		}
+    public char pop() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return ' ';
+        }
+        return stack[top--];
+    }
 
-		Node current = head;
-		int count = 0;
+    public char peek() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return ' ';
+        }
+        return stack[top];
+    }
 
-		// Traverse to the node just before the insertion point
-		while (count < index - 1 && current.next != head) {
-			current = current.next;
-			count++;
-		}
+    public boolean isEmpty() {
+        return top == -1;
+    }
 
-		if (current == head && count != index - 1) {
-			System.out.println("Index out of bounds");
-			return;
-		}
+    public int size() {
+        return top + 1;
+    }
 
-		newNode.next = current.next;
-		newNode.prev = current;
-		current.next.prev = newNode;
-		current.next = newNode;
-	}
-
-	// Insert a new node at the beginning of the list
-	public void insertFirst(int data) {
-		Node newNode = new Node(data);
-
-		if (head == null) {
-			// For an empty list, point next and prev to itself (circular nature)
-			newNode.next = newNode.prev = newNode;
-			head = newNode;
-		} else {
-			Node last = head.prev; // Get the last node
-
-			// Insert the new node at the beginning
-			newNode.next = head;
-			newNode.prev = last;
-			last.next = newNode;
-			head.prev = newNode;
-			head = newNode; // Move head to the new node
-		}
-	}
-
-	// Insert a new node at the end of the list
-	public void insertLast(int data) {
-		Node newNode = new Node(data);
-
-		if (head == null) {
-			// For an empty list, point next and prev to itself (circular nature)
-			newNode.next = newNode.prev = newNode;
-			head = newNode;
-		} else {
-			Node last = head.prev; // Get the last node
-
-			// Insert the new node at the end
-			last.next = newNode;
-			newNode.prev = last;
-			newNode.next = head;
-			head.prev = newNode;
-		}
-	}
-
-	// Helper function to print the list
-	public void printList() {
-		if (head == null) {
-			System.out.println("List is empty");
-			return;
-		}
-
-		Node temp = head;
-		do {
-			System.out.print(temp.data + " <-> ");
-			temp = temp.next;
-		} while (temp != head);
-		System.out.println("(head)");
-	}
+    public void printStack() {
+        for (int i = 0; i <= top; i++) {
+            System.out.print(stack[i] + " ");
+        }
+        System.out.println();
+    }
 }
 
-class Main {
-	public static void main(String[] args) {
-		CircularDoublyLinkedList cdll = new CircularDoublyLinkedList();
-
-		// Inserting nodes at the end
-		cdll.insertNode(10);
-		cdll.insertNode(20);
-		cdll.insertNode(30);
-		cdll.insertNode(40);
-
-		System.out.println("List after inserting nodes at the end:");
-		cdll.printList();
-
-		// Inserting a node at the beginning
-		cdll.insertFirst(5);
-		System.out.println("List after inserting 5 at the beginning:");
-		cdll.printList();
-
-		// Inserting a node at index 2
-		cdll.insertNode(15, 2);
-		System.out.println("List after inserting 15 at index 2:");
-		cdll.printList();
-
-		// Inserting a node at the end (equivalent to insertNode)
-		cdll.insertLast(50);
-		System.out.println("List after inserting 50 at the end:");
-		cdll.printList();
-	}
-}
+//Java

@@ -70,11 +70,11 @@ These notes are only created for Java DSA !!
 
 ### Stack
 
-18. [Stack]()
+18. [Stack](./notes/18.%20Stack.md)
 
 ### Queue
 
-19. [Queue]()
+19. [Queue](./notes/19.%20Queue.md)
 
 ### Hash DS
 
@@ -106,7 +106,7 @@ These notes are only created for Java DSA !!
 36. [Dijkstra's Algorithm]()
 37. [Bellman-Ford]()
 
-### Minimum Spanninh Tree 
+### Minimum Spanninh Tree
 
 38. [Minimum Spanning Tree]()
 39. [Prim's Algorithm]()

@@ -20,7 +20,9 @@
 - [Graphs](#graphs)
 - [Shortest Path](#shortest-path)
 - [Minimum Spanninh Tree](#minimum-spanninh-tree)
+- [Bit-Manipulation](#bit-manipulation)
 - [Miscellaneous](#miscellaneous)
+- [Problem Solving Techniques](#problem-solving-techniques)
 
 
 <hr/>
@@ -59,6 +61,8 @@ These notes are only created for Java DSA !!
 10. [Counting Sort](./notes/9.%20CountingSort.md)
 11. [Radix Sort](./notes/10.%20RadixSort.md)
 12. [Merge Sort](./notes/11.%20MergeSort.md)
+13. [Topological Sort]()
+14. [Cycle Sort]()
 
 ### LinkedList
 
@@ -89,16 +93,19 @@ These notes are only created for Java DSA !!
 25. [Pre-Order Traversal]() 
 26. [In-Order Traversal]() 
 27. [Post-Order Traversal]() 
-28. [Array Implementation]() 
-29. [Binary Search Tree]() 
-30. [AVL Tree]() 
-31. [B Tree]() 
-32. [B+ Tree]() 
-33. [Red-Black Tree]() 
+28. [Level-Order Traversal]() 
+29. [Array Implementation]() 
+30. [Binary Search Tree]() 
+31. [AVL Tree]() 
+32. [B Tree]() 
+33. [B+ Tree]() 
+34. [Red-Black Tree]() 
 
 ### Graphs
 
 34. [Graph]()
+35. [BFS]()
+36. [DFS]()
 
 ### Shortest Path
 
@@ -112,6 +119,10 @@ These notes are only created for Java DSA !!
 39. [Prim's Algorithm]()
 40. [Kruskal's Algorithm]()
 
+### Bit-Manipulation
+
+41. [Bit-Manipulation]()
+
 ### Miscellaneous
 
 41. [2 Pointer Problems]()
@@ -123,3 +134,16 @@ These notes are only created for Java DSA !!
 47. [Tabulation]()
 48. [Dynamic Programming]()
 49. [Greedy Algorithms]()
+
+### Problem Solving Techniques
+
+[2 Pointers]()
+[Sliding Window]()
+[Prefix Sum]()
+[Fast and Slow Pointers]()
+[Divide and Conquer]()
+[Recursion]()
+[Dynamic Programming]()
+[Greedy Algorithms]()
+[Backtracking]()
+[Top 'K' Elements]()

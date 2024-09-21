@@ -43,83 +43,83 @@ These notes are only created for Java DSA !!
 ### Arrays
 
 2. [Arrays]()
-3. [2D Array]()
-4. [2D Array]()
+3. [Matrix / 2D Array]()
 
 ### Searching
 
-3. [Linear Search](./notes/3.%20LinearSearch.md)
-4. [Binary Search](./notes/4.%20BinarySearch.md)
+4. [Linear Search](./notes/3.%20LinearSearch.md)
+5. [Binary Search](./notes/4.%20BinarySearch.md)
 
 ### Sorting
 
-5. [Bubble Sort](./notes/5.%20Bubble%20Sort.md)
-6. [Selection Sort](./notes/6.%20SeletionSort.md)
-7. [Insertion Sort](./notes/7.%20InsertionSort.md)
-8. [Quick Sort](./notes/8.%20QuickSort.md)
-9.  [Counting Sort](./notes/9.%20CountingSort.md)
-10. [Radix Sort](./notes/10.%20RadixSort.md)
-11. [Merge Sort](./notes/11.%20MergeSort.md)
+6. [Bubble Sort](./notes/5.%20Bubble%20Sort.md)
+7. [Selection Sort](./notes/6.%20SeletionSort.md)
+8. [Insertion Sort](./notes/7.%20InsertionSort.md)
+9. [Quick Sort](./notes/8.%20QuickSort.md)
+10. [Counting Sort](./notes/9.%20CountingSort.md)
+11. [Radix Sort](./notes/10.%20RadixSort.md)
+12. [Merge Sort](./notes/11.%20MergeSort.md)
 
 ### LinkedList
 
-12. [Linked List](./notes/12.%20LinkedList.md)
-13. [Singly Linked List](./notes/13.%20SinglyLinkedList.md)
-14. [Doubly Linked List]()
-15. [Circular Linked List]()
-16. [Circular Doubly Linked List]()
+13. [Linked List](./notes/12.%20LinkedList.md)
+14. [Singly Linked List](./notes/13.%20SinglyLinkedList.md)
+15. [Doubly Linked List](./notes/15.%20DoublyLinkedList.md)
+16. [Circular Linked List]()
+17. [Circular Doubly Linked List]()
 
 ### Stack
 
-17. [Stack]()
+18. [Stack]()
 
 ### Queue
 
-18. [Queue]()
+19. [Queue]()
 
 ### Hash DS
 
-19. [Hash Table]() 
-20. [Hash Set]() 
-21. [Hash Map]()
+20. [Hash Table]() 
+21. [Hash Set]() 
+22. [Hash Map]()
 
 ### Trees
 
-22. [Trees]()
-23. [Binary Tree]() 
-24. [Pre-Order Traversal]() 
-25. [In-Order Traversal]() 
-26. [Post-Order Traversal]() 
-27. [Array Implementation]() 
-28. [Binary Search Tree]() 
-29. [AVL Tree]() 
-30. [B Tree]() 
-31. [B+ Tree]() 
-32. [Red-Black Tree]() 
+23. [Trees]()
+24. [Binary Tree]() 
+25. [Pre-Order Traversal]() 
+26. [In-Order Traversal]() 
+27. [Post-Order Traversal]() 
+28. [Array Implementation]() 
+29. [Binary Search Tree]() 
+30. [AVL Tree]() 
+31. [B Tree]() 
+32. [B+ Tree]() 
+33. [Red-Black Tree]() 
 
 ### Graphs
 
-33. [Graph]()
+34. [Graph]()
 
 ### Shortest Path
 
-34. [Shortest Path]()
-35. [Dijkstra's Algorithm]()
-36. [Bellman-Ford]()
+35. [Shortest Path]()
+36. [Dijkstra's Algorithm]()
+37. [Bellman-Ford]()
 
 ### Minimum Spanninh Tree 
 
-37. [Minimum Spanning Tree]()
-38. [Prim's Algorithm]()
-39. [Kruskal's Algorithm]()
+38. [Minimum Spanning Tree]()
+39. [Prim's Algorithm]()
+40. [Kruskal's Algorithm]()
 
 ### Miscellaneous
 
-40. [Euclidean Algorithm]()
-41. [Huffman Coding]()
-42. [Traveling Salesman Problem]()
-43. [The 0/1 Knapsack Problem]()
-44. [Memoization]()
-45. [Tabulation]()
-46. [Dynamic Programming]()
-47. [Greedy Algorithms]()
+41. [2 Pointer Problems]()
+42. [Euclidean Algorithm]()
+43. [Huffman Coding]()
+44. [Traveling Salesman Problem]()
+45. [The 0/1 Knapsack Problem]()
+46. [Memoization]()
+47. [Tabulation]()
+48. [Dynamic Programming]()
+49. [Greedy Algorithms]()

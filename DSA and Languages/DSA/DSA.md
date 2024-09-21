@@ -66,7 +66,7 @@ These notes are only created for Java DSA !!
 14. [Singly Linked List](./notes/13.%20SinglyLinkedList.md)
 15. [Doubly Linked List](./notes/15.%20DoublyLinkedList.md)
 16. [Circular Linked List](./notes/16.%20CircularLinkedList.md)
-17. [Circular Doubly Linked List]()
+17. [Circular Doubly Linked List](./notes/17.%20CircularDoublyLinkedList.md)
 
 ### Stack
 

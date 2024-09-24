@@ -16,13 +16,15 @@
 - [Stack](#stack)
 - [Queue](#queue)
 - [Hash DS](#hash-ds)
+- [Bit-Manipulation](#bit-manipulation)
+- [Recursion](#recursion)
 - [Trees](#trees)
 - [Graphs](#graphs)
 - [Shortest Path](#shortest-path)
 - [Minimum Spanninh Tree](#minimum-spanninh-tree)
-- [Bit-Manipulation](#bit-manipulation)
-- [Miscellaneous](#miscellaneous)
 - [Problem Solving Techniques](#problem-solving-techniques)
+- [Miscellaneous](#miscellaneous)
+- [Famous Problems](#famous-problems)
 
 
 <hr/>
@@ -86,26 +88,34 @@ These notes are only created for Java DSA !!
 21. [Hash Set]() 
 22. [Hash Map]()
 
+### Bit-Manipulation
+
+23. [Bit-Manipulation](./notes/23.%20Bit-Manipulation.md)
+
+### Recursion
+
+24. [Recursion]()
+
 ### Trees
 
-23. [Trees]()
-24. [Binary Tree]() 
-25. [Pre-Order Traversal]() 
-26. [In-Order Traversal]() 
-27. [Post-Order Traversal]() 
-28. [Level-Order Traversal]() 
-29. [Array Implementation]() 
-30. [Binary Search Tree]() 
-31. [AVL Tree]() 
-32. [B Tree]() 
-33. [B+ Tree]() 
-34. [Red-Black Tree]() 
+25. [Trees]()
+26. [Binary Tree]() 
+27. [Pre-Order Traversal]() 
+28. [In-Order Traversal]() 
+29. [Post-Order Traversal]() 
+30. [Level-Order Traversal]() 
+31. [Array Implementation]() 
+32. [Binary Search Tree]() 
+33. [AVL Tree]() 
+34. [B Tree]() 
+35. [B+ Tree]() 
+36. [Red-Black Tree]() 
 
 ### Graphs
 
-34. [Graph]()
-35. [BFS]()
-36. [DFS]()
+37. [Graph]()
+38. [BFS]()
+39. [DFS]()
 
 ### Shortest Path
 
@@ -119,21 +129,6 @@ These notes are only created for Java DSA !!
 39. [Prim's Algorithm]()
 40. [Kruskal's Algorithm]()
 
-### Bit-Manipulation
-
-41. [Bit-Manipulation]()
-
-### Miscellaneous
-
-41. [2 Pointer Problems]()
-42. [Euclidean Algorithm]()
-43. [Huffman Coding]()
-44. [Traveling Salesman Problem]()
-45. [The 0/1 Knapsack Problem]()
-46. [Memoization]()
-47. [Tabulation]()
-48. [Dynamic Programming]()
-49. [Greedy Algorithms]()
 
 ### Problem Solving Techniques
 
@@ -147,3 +142,18 @@ These notes are only created for Java DSA !!
 [Greedy Algorithms]()
 [Backtracking]()
 [Top 'K' Elements]()
+
+### Miscellaneous
+
+1.  [Euclidean Algorithm]()
+2.  [Huffman Coding]()
+3.  [Traveling Salesman Problem]()
+4.  [The 0/1 Knapsack Problem]()
+5.  [Memoization]()
+6.  [Tabulation]()
+
+### Famous Problems
+
+1. [Fibonacci Series]()
+2. [Palindrome Check]()
+3. [Sudoko Solver]()

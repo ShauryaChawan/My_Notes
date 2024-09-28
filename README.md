@@ -9,30 +9,35 @@ today was holiday
 - [Median of Two Sorted Arrays](./DSA%20and%20Languages/LeetCode/Median%20of%20Two%20Sorted%20Arrays.md) {Hard}{Incomplete}
 - [Sort the People](./DSA%20and%20Languages/LeetCode/Sort%20the%20People.md){Easy}
 
-<hr />
+---
 
 <h2>Artificial Intelligence</h2>
-<hr />
+---
 
 <h2>Software Development</h2>
 
-- Web Development
-    - [HTML](Development/Web/HTML.md)
-    - [CSS](./Development/Web/CSS/CSS.md)
-    - [JavaScript](./Development/Web/JavaScript/JavaScript.md)
-    - [React.js](./Development/Web/React.js/React.js.md)
-    - [Node.js](./Development/Web/Node.js/Node.js.md)
-    - [Express.js](./Development/Web/Express.js/Express.js.md)
-    - [React Native](./Development/Web/React%20Native/React%20Native.md)
-- Java Software Development
-  - [JDBC](./Development/Java%20Dev/JDBC/JDBC.md)
-  - [JSP & Servlet]()
-  - [Hibernate]()
-  - [Spring Framework]()
-- Mobile Development
-    - React Native
+- Frontend
+  - Web
+    - [HTML](Development/Frontend/Web/HTML/HTML.md)
+    - [CSS](./Development/Frontend/Web/CSS/CSS.md)
+    - [JavaScript](./Development/Frontend/Web/JavaScript/JavaScript.md)
+    - [React.js](./Development/Frontend/Web/React.js/React.js.md)
+  - Mobile
+    - [React Native](./Development/Frontend/Mobile/React%20Native/React%20Native.md)
+    - Java
+    - Kotlin
+  - Desktop
+    - ASP.NET
+    - Java
+- Backend
+  - [Node.js](./Development/Backend/Node.js/)
+  - Java
+    - [JDBC](./Development/Java%20Dev/JDBC/JDBC.md)
+    - [JSP & Servlet]()
+    - [Hibernate]()
+    - [Spring Framework]()
 
-<hr />
+---
 
 <h2>Computer Science Thoery</h2>
 
@@ -42,7 +47,7 @@ today was holiday
 - [Software Conceptual Design](./CS%20Theory/Softare%20Conceptual%20Design/SCD.md)
 - [Software Engineering](./CS%20Theory/Software%20Engineering/SE.md)
 
-<hr />
+---
 
 <h2>DSA & Languages</h2>
 
@@ -51,7 +56,7 @@ today was holiday
 - [Python](./DSA%20and%20Languages/Python/Python.md)
 - [DSA](./DSA%20and%20Languages/DSA/DSA.md)
 
-<hr />
+---
 
 <h2>Interview</h2>
 <ul>
@@ -101,4 +106,4 @@ today was holiday
 		<li>Booking.com</li>
 	</ol>
 </ul>
-<hr />
+---

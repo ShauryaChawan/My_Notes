@@ -6,28 +6,13 @@
 <h1 style="text-align: center">Node.js + Express.js Notes</h1>
 
 
-## 1. [Getting Started with Node.js](./notes/1.%20Getting%20Started%20with%20Node.js.md)
 
-### 1.1 Introduction to Node.js
-- What is Node.js?
-- History and Evolution of Node.js
-- Use cases and advantages
-- Event-driven, non-blocking I/O model
+### Getting Started with Node.js
 
-### 1.2 Installation and Setup
-- Installing Node.js
-- Using Node REPL
-- Managing Node.js versions (nvm)
-
-### 1.3 Node.js Execution Model
-- Single-threaded architecture
-- Event Loop and Call Stack
-- Callbacks, Promises, and Async/Await
-
-### 1.4 Core Node.js Modules
-- Global objects and modules
-- Importing/Exporting modules (`require` and `module.exports`)
-- Key core modules: `fs`, `path`, `os`, `events`, `util`
+1. [Introduction to Node.js](./notes/1.%20Introduction%20to%20Node.js.md)
+2. [Node.js vs Other Backend Technologies]()
+3. [Node.js Execution Model]()
+4. [Node.js Core Modules]()
 
 ### 1.5 File System Operations
 - Reading and writing files (`fs.readFile`, `fs.writeFile`)

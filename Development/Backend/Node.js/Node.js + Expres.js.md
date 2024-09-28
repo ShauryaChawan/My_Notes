@@ -10,21 +10,18 @@
 ### Getting Started with Node.js
 
 1. [Introduction to Node.js](./notes/1.%20Introduction%20to%20Node.js.md)
-2. [Node.js vs Other Backend Technologies]()
-3. [Node.js Execution Model]()
-4. [Node.js Core Modules]()
-
-### 1.5 File System Operations
-- Reading and writing files (`fs.readFile`, `fs.writeFile`)
-- Synchronous vs. Asynchronous operations
-- Working with directories and streams
-
+2. [Node.js vs Other Backend Technologies](./notes/2.%20Node.js%20vs%20Other%20Backend%20Technologies.md)
+3. [Node.js Execution Model](./notes/3.%20Node.js%20Execution%20Model.md)
+4. [Node.js Core Modules](./notes/4.%20Node.js%20Core%20Modules.md)
+5. [Node.js File System Operations](./notes/5.%20Node.js%20File%20System%20Operations.md)
+6. [Node.js Package Managers](./notes/6.%20Node.js%20Package%20Managers.md)
+7. [Node.js Server]()
 ---
 
 ## 2. Node.js in Depth
 
-### 2.1 Node.js Package Manager (NPM)
-- Introduction to NPM and Yarn
+### 2.1 Node.js Package Managers
+- Introduction to `npm`, `yarn` & `pnpm`
 - Installing global and local packages
 - Managing dependencies (`package.json`, `package-lock.json`)
 - Semantic versioning

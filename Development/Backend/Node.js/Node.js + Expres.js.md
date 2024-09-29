@@ -12,19 +12,44 @@
 1. [Introduction to Node.js](./notes/1.%20Introduction%20to%20Node.js.md)
 2. [Node.js vs Other Backend Technologies](./notes/2.%20Node.js%20vs%20Other%20Backend%20Technologies.md)
 3. [Node.js Execution Model](./notes/3.%20Node.js%20Execution%20Model.md)
-4. [Node.js Core Modules](./notes/4.%20Node.js%20Core%20Modules.md)
-5. [Node.js File System Operations](./notes/5.%20Node.js%20File%20System%20Operations.md)
-6. [Node.js Package Managers](./notes/6.%20Node.js%20Package%20Managers.md)
-7. [Node.js Server]()
+4. [Node.js Package Managers](./notes/6.%20Node.js%20Package%20Managers.md)
+5. [Node.js Server](./notes/5.%20Node.js%20Server.md)
+6. [Asynchronous Programming in Node.js]()
+7. [Streams and Buffers]()
+8. [Event-Driven Architecture]()
+
+### Built-In Modules
+
+5. [Node.js Core Modules](./notes/4.%20Node.js%20Core%20Modules.md)
+6. [Node.js - `assert` Module]()
+7. [Node.js - `buffer` Module]()
+8. [Node.js - `cluster` Module]()
+9. [Node.js - `crypto` Module]()
+10. [Node.js - `dgram` Module]()
+11. [Node.js - `dns` Module]()
+12. [Node.js - `events` Module]()
+13. [Node.js - `http` & `https` Module]()
+14. [Node.js - `net` Module]()
+15. [Node.js - `os` Module]()
+16. [Node.js - `path` Module]()
+17. [Node.js - `querystring` Module]()
+18. [Node.js - `readline` Module]()
+19. [Node.js - `stream` Module]()
+20. [Node.js - `string_decoder` Module]()
+21. [Node.js - `timers` Module]()
+22. [Node.js - `tis` Module]()
+23. [Node.js - `url` Module]()
+24. [Node.js - `util` Module]()
+25. [Node.js - `vm` Module]()
+26. [Node.js - `zlib` Module]()
+
+### Node.js + MySQL
+
+### Node.js + MongoDB
+
+### Express.js
+
 ---
-
-## 2. Node.js in Depth
-
-### 2.1 Node.js Package Managers
-- Introduction to `npm`, `yarn` & `pnpm`
-- Installing global and local packages
-- Managing dependencies (`package.json`, `package-lock.json`)
-- Semantic versioning
 
 ### 2.2 Basic Node.js Server
 - Creating a simple HTTP server (`http.createServer`)

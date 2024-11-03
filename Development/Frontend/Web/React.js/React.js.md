@@ -4,14 +4,14 @@
 
 <h2> Index </h2>
 
-- [React basics](#react-basics)
+- [React Basics](#react-basics)
 - [React Hooks](#react-hooks)
 - [React Components](#react-components)
 
 
 ### React Tutorial
-1. [React Introduction ✅](./notes/1.%20React%20-%20Introduction.md)
-2. [React Quick Start ✅](./notes/2.%20React%20-%20Quick%20Start.md)
+1. [✅ React Introduction](./notes/1.%20React%20-%20Introduction.md)
+2. [✅ React Quick Start](./notes/2.%20React%20-%20Quick%20Start.md)
 3. [React Rendering HTML & Virtual DOM]()
 4. [React JSX]()
 5. [React Props]()
@@ -27,10 +27,10 @@
 15. [Escape Hatches]()
 
 ### React Hooks
-10. [React Hooks]()
+10. [✅ React Hooks](./notes/10.%20React%20Hooks.md)
 11. [React `useState`]()
 12. [React `useEffect`]()
-13. [React `useCallbacl`]()
+13. [React `useCallback`]()
 14. [React `useContext`]()
 15. [React `useDebugValue`]()
 16. [React `useDeferredValue`]()

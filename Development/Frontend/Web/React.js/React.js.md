@@ -2,14 +2,15 @@
 
 <center><h1> React.js Notes </h1> </center>
 
-<h2> Index </h2>
-
-- [React Basics](#react-basics)
+## Index
+- [Index](#index)
+- [React Tutorial](#react-tutorial)
 - [React Hooks](#react-hooks)
 - [React Components](#react-components)
+- [Advanced Todo List Project](#advanced-todo-list-project)
+- [Interview Questions](#interview-questions)
 
-
-### React Tutorial
+## React Tutorial
 1. [✅ React Introduction](./notes/1.%20React%20-%20Introduction.md)
 2. [✅ React Quick Start](./notes/2.%20React%20-%20Quick%20Start.md)
 3. [React Rendering HTML & Virtual DOM]()
@@ -26,7 +27,7 @@
 14. [Managing State]()
 15. [Escape Hatches]()
 
-### React Hooks
+## React Hooks
 10. [✅ React Hooks](./notes/10.%20React%20Hooks.md)
 11. [✅ React `useState`](./notes/11.%20React%20`useState`.md)
 12. [React `useEffect`]()
@@ -45,7 +46,7 @@
 25. [React `useTransition`]()
 26. [React Custom Hook]()
 
-### React Components
+## React Components
 27. [React Components]()
 28. [React `<Fragment> (<>..</>)`]()
 29. [React `<Profile>`]()
@@ -58,4 +59,4 @@
 
 ## Interview Questions
 
-[React Interview Questions]()
+[React Interview Questions](./notes/React%20Interview%20Questions.md)

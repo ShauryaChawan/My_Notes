@@ -45,6 +45,7 @@
 	- [39. How do you add an event listener in JavaScript?](#39-how-do-you-add-an-event-listener-in-javascript)
 	- [40. What is the DOM (Document Object Model) in JavaScript?](#40-what-is-the-dom-document-object-model-in-javascript)
 - [Intermediate JavaScript Questions](#intermediate-javascript-questions)
+	- [69. What is function currying in JavaScript?](#69-what-is-function-currying-in-javascript)
 - [Advanced JavaScript Questions](#advanced-javascript-questions)
 - [JavaScript Performance Optimizations](#javascript-performance-optimizations)
 - [Additional Advanced and Miscellaneous JavaScript Questions](#additional-advanced-and-miscellaneous-javascript-questions)
@@ -518,24 +519,94 @@ greet("Alice"); // "Alice" is an argument
 66. What is strict mode in JavaScript?
 67. How do you enable strict mode in JavaScript?
 68. What is the difference between == and === in strict mode?
-69. What is function currying in JavaScript?
-70. What is the bind(), call(), and apply() methods in JavaScript?
-71. What is the this keyword in JavaScript, and how does it behave?
-72. How does the this keyword behave in arrow functions?
-73. What are prototypes in JavaScript?
-74. What is the prototype chain in JavaScript?
-75. What is inheritance in JavaScript?
-76. What are getter and setter methods in JavaScript?
-77. What is the difference between class-based inheritance and prototypal inheritance?
-78. What are classes in JavaScript, and how are they used?
-79. What are constructors in JavaScript classes?
-80. What are static methods in JavaScript classes?
-81. How does inheritance work in JavaScript classes?
-82. What are symbols in JavaScript, and how are they used?
-83. What are generators in JavaScript?
-84. How does yield work in generator functions?
-85. What is the difference between generator functions and normal functions?
-86. How do you handle asynchronous iteration in JavaScript with generators?
+### 69. What is function currying in JavaScript?
+
+**What is Currying?**
+
+Currying is a function that takes one argument at a time and returns a new function expecting the next argument. It is a conversion of functions from callable as `f(a,b,c)` into callable as `f(a)(b)(c)`.
+
+```js
+function temp(a) {
+	return function (b) {
+			return function (c) {
+					return `${a} ${b} ${c}`;
+			}
+	}
+} 
+
+console.log(temp(5)(6)(7)); // Output: "5 6 7"
+```
+
+Basically Currying doesn’t call a function. It just transforms a function. They are constructed by chaining closures by immediately returning their inner functions simultaneously.
+
+**Giving names to anonymous inner function and tyring to access them:**
+
+```js
+function temp(a) {
+	return function temp2(b) {
+			return function temp3(c) {
+					return `${a} ${b} ${c}`;
+			}
+	}
+}
+
+// Access each function in a variable
+const temp2 = temp(5);   // temp2 is now temp2(b)
+const temp3 = temp2(6);  // temp3 is now temp3(c)
+console.log(temp3(7));   // Outputs: "5 6 7"
+```
+
+```js
+function temp(a) {
+  function temp2(b) {
+    function temp3(c) {
+      return `${a} ${b} ${c}`;
+    }
+    return { temp3 }; // return temp3 as part of an object
+  }
+  return { temp2 }; // return temp2 as part of an object
+}
+
+const functions = temp(5);
+const result2 = functions.temp2(6);
+const result3 = result2.temp3(7);
+
+console.log(result3); // Outputs: "5 6 7"
+```
+
+Infinite Currying:
+
+```js
+function add(a) {
+  return function (b) {
+    if (b) return add(a + b);
+    return a;
+  };
+}
+
+console.log(add(5)(2)(4)(8)()); 
+// Output: 19
+```
+
+--- 
+
+1.  What is the bind(), call(), and apply() methods in JavaScript?
+2.  What is the this keyword in JavaScript, and how does it behave?
+3.  How does the this keyword behave in arrow functions?
+4.  What are prototypes in JavaScript?
+5.  What is the prototype chain in JavaScript?
+6.  What is inheritance in JavaScript?
+7.  What are getter and setter methods in JavaScript?
+8.  What is the difference between class-based inheritance and prototypal inheritance?
+9.  What are classes in JavaScript, and how are they used?
+10. What are constructors in JavaScript classes?
+11. What are static methods in JavaScript classes?
+12. How does inheritance work in JavaScript classes?
+13. What are symbols in JavaScript, and how are they used?
+14. What are generators in JavaScript?
+15. How does yield work in generator functions?
+16. What is the difference between generator functions and normal functions?
+17. How do you handle asynchronous iteration in JavaScript with generators?
 
 ## Advanced JavaScript Questions
 

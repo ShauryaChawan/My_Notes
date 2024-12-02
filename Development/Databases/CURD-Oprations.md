@@ -1,4 +1,4 @@
-<h1> CURD Operations</h1>
+<h1> w3schol Operations</h1>
 
 ---
 

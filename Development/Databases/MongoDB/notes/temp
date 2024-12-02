@@ -1,0 +1,19 @@
+// student info
+[
+	{
+		"roll_no": 1
+		"name": "Shaurya"
+		"class": 10 
+		"courses" [<course1 _id>,<course2 _id>,<course3 _id> ]
+	},...
+]
+
+// course info
+[
+	{
+		"course_id": "MCAL21",
+		"course_name": "Maths"
+	},...
+]
+
+// student and courses

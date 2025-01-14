@@ -5,8 +5,8 @@
 <h2> Index </h2>
 
 1. [JS - Introduction ✅](./notes/1.%20JS%20-%20Introduction.md)
-2. [JS - Variables & Data Types](./notes/2.%20JS%20-%20Variables%20&%20Datatypes.md)
-3. [JS - Input & Output]()
+2. [JS - Variables & Data Types ✅](./notes/2.%20JS%20-%20Variables%20&%20Datatypes.md)
+3. [JS - Input & Output ✅](./notes/3.%20JS%20-%20IO.md)
 4. [JS - Operators]()
 5. [JS - Objects]()
 6. [JS - Events]()
@@ -40,5 +40,6 @@
 34. [JS - Browser BOM]()
 35. [JS - Web APIs]()
 36. [JS - Keywords]()
-37. [JS - Versions]()
-38. [JS - Performance Optimization]()
+37. [JS - `console`]()
+38. [JS - Versions]()
+39. [JS - Performance Optimization]()

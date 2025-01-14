@@ -1,24 +1,19 @@
 <h1 style="text-align: center">Notes By Shaurya</h1>
 
-today was holiday
+- [Software Development](#software-development)
+- [Computer Science Theory](#computer-science-theory)
+- [DSA and Languages](#dsa-and-languages)
+- [Interview](#interview)
+- [Courses](#courses)
+- [Leet Code](#leet-code)
 
-<h2>Leet Code</h2>
+----
 
-- [Two Sum](./DSA%20and%20Languages/LeetCode/TwoSum.md) {Easy}
-- [Lucky Number in Matrix](./DSA%20and%20Languages/LeetCode/Lucky%20Numbers%20in%20a%20Matrix.md) {Easy}
-- [Median of Two Sorted Arrays](./DSA%20and%20Languages/LeetCode/Median%20of%20Two%20Sorted%20Arrays.md) {Hard}{Incomplete}
-- [Sort the People](./DSA%20and%20Languages/LeetCode/Sort%20the%20People.md){Easy}
-
----
-
-<h2>Artificial Intelligence</h2>
----
-
-<h2>Software Development</h2>
+## Software Development
 
 - Frontend
   - Web
-    - [HTML](Development/Frontend/Web/HTML/HTML.md)
+    - [HTML](./Development/Frontend/Web/HTML/HTML.md)
     - [CSS](./Development/Frontend/Web/CSS/CSS.md)
     - [JavaScript](./Development/Frontend/Web/JavaScript/JavaScript.md)
     - [React.js](./Development/Frontend/Web/React.js/React.js.md)
@@ -42,7 +37,7 @@ today was holiday
   - [SQL](./Development/Databases/SQL/SQL.md)
 ---
 
-<h2>Computer Science Thoery</h2>
+## Computer Science Theory 
 
 - [Operating Systems (OS)](./CS%20Theory/Operating%20Systems%20(OS)/OS.md)
 - [Computer Networks (CN)](./CS%20Theory/Computer%20Netowkrs%20(CN)/CN.md)
@@ -52,7 +47,7 @@ today was holiday
 
 ---
 
-<h2>DSA & Languages</h2>
+## DSA and Languages
 
 - [C++](./DSA%20and%20Languages/C++/C++.md)
 - [Java](./DSA%20and%20Languages/Java/Java.md)
@@ -61,7 +56,8 @@ today was holiday
 
 ---
 
-<h2>Interview</h2>
+## Interview 
+
 <ul>
 	<li>Software Development</li>
 	<ul>
@@ -109,4 +105,20 @@ today was holiday
 		<li>Booking.com</li>
 	</ol>
 </ul>
+
+---
+
+## Courses
+
+1. [Chatgpt (Greate Learning)](./Courses/ChatGPT%20-%20Great%20Learning)
+
+---
+
+## Leet Code
+
+- [Two Sum](./DSA%20and%20Languages/LeetCode/TwoSum.md) {Easy}
+- [Lucky Number in Matrix](./DSA%20and%20Languages/LeetCode/Lucky%20Numbers%20in%20a%20Matrix.md) {Easy}
+- [Median of Two Sorted Arrays](./DSA%20and%20Languages/LeetCode/Median%20of%20Two%20Sorted%20Arrays.md) {Hard}{Incomplete}
+- [Sort the People](./DSA%20and%20Languages/LeetCode/Sort%20the%20People.md){Easy}
+
 ---

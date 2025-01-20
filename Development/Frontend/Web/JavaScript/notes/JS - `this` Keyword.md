@@ -8,7 +8,7 @@
 
 ---
 
-<h1 style="text-align: center">28. `this` Keyword</h1>
+<h1 style="text-align: center">The `this` Keyword</h1>
 
 ## Index
 - [Index](#index)

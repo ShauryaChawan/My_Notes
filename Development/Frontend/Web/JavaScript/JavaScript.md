@@ -22,7 +22,7 @@
 16. [JS - Maps]()
 17. [JS - Bitwise]()
 18. [JS - RegExp]()
-19. [JS - Error Handling]()
+19. [JS - Error Handling ✅](./notes/JS%20-%20Error%20Handling.md)
 20. [JS - Modules]()
 21. [JS - Functions]()
 22. [JS - Function Call]()

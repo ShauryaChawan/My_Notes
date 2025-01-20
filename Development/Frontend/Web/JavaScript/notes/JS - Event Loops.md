@@ -11,15 +11,20 @@
 <h1 style="text-align: center">JS Event Loops</h1>
 
 ## Index
+- [Index](#index)
+- [Introduction](#introduction)
+- [Explanation with Steps:](#explanation-with-steps)
 
 ---
-
-[⬆️ Back to Top ⬆️](#index)
 
 ## Introduction
 
 - The event loop is a mechanism in JavaScript that ensures the non-blocking nature of JavaScript by handling asynchronous tasks. JavaScript has a single-threaded runtime, which means it can execute one task at a time in the call stack. 
 - The event loop allows JavaScript to handle asynchronous tasks (like fetching data or timers) by coordinating between different components such as the call stack, web APIs, and task queues.
+
+--- 
+
+[⬆️ Back to Top ⬆️](#index)
 
 ## Explanation with Steps:
 
@@ -64,6 +69,8 @@ Timeout callback
 ```
 
 [Understand Event loop by visualization - Link](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+
+[Gfg event loops](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
 ---
 

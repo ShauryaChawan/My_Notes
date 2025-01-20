@@ -31,7 +31,7 @@
 25. [JS - Function Clousers]()
 26. [JS - Hoisting]()
 27. [JS - Strict Mode]()
-28. [JS - `this` Keyword]()
+28. [JS - `this` Keyword ✅](./notes/JS%20-%20`this`%20Keyword.md)
 29. [JS - Classes]()
 30. [JS - HTML DOM]()
 31. [JS - Browser BOM]()

@@ -14,7 +14,7 @@
 - [Index](#index)
 - [How to Define a JavaScript Object](#how-to-define-a-javascript-object)
 - [JavaScript Object Literal](#javascript-object-literal)
-- [Creating a JavaScript Object](#creating-a-javascript-object)
+- [Different ways of creating JavaScript Object](#different-ways-of-creating-javascript-object)
 - [Properties of Objects](#properties-of-objects)
   - [Accessing Object Properties](#accessing-object-properties)
   - [Adding New Properties](#adding-new-properties)
@@ -80,7 +80,7 @@ An object literal is a list of name:value pairs inside curly braces {}.
 
 [⬆️ Back to Top ⬆️](#index)
 
-## Creating a JavaScript Object
+## Different ways of creating JavaScript Object
 
 ```js
 // 1. Create an Object

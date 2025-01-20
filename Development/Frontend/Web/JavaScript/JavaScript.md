@@ -38,7 +38,7 @@
 32. [JS - Callbacks]()
 33. [JS - Ansync]()
 34. [JS - Promises]()
-35. [JS - Event Loops]()
+35. [JS - Event Loops ✅](./notes/JS%20-%20Event%20Loops.md)
 36. [JS - API]()
 37. [JS - Ajax]()
 38. [JS - CORS]()
